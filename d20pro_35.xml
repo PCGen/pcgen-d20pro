@@ -1,0 +1,3555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	$Id: base.xml 16700 2012-05-06 06:27:58Z amaitland $
+-->
+<character>
+	<export>
+		<date>Dec 10, 2014</date>
+		<time>4:11:27 PM</time>
+		<version>6.05.00-dev</version>
+		<paperinfo>
+			<name>Letter</name>
+			<height>11in</height>
+			<width>8.5in</width>
+			<margins>
+				<top>.4in</top>
+				<bottom>.6in</bottom>
+				<left>.4in</left>
+				<right>.4in</right>
+			</margins>
+		</paperinfo>
+		<directories>
+			<pcgen>J:\pcgen\pcgen_trunk\Trunk\pcgen\system</pcgen>
+			<templates>J:\pcgen\pcgen_trunk\Trunk\pcgen\outputsheets</templates>
+			<pcg>J:\pcgen\pcgen_trunk\Trunk\pcgen\characters</pcg>
+			<html>J:\pcgen\pcgen_trunk\Trunk\pcgen\outputsheets\d20\fantasy\htmlxml</html>
+			<temp>C:\Users\Andrew\AppData\Local\Temp</temp>
+		</directories>
+	</export>
+	<unit_set>
+		<name>Imperial</name>
+		<height_unit>ftin</height_unit>
+		<distance_unit> ft.</distance_unit>
+		<weight_unit> lbs.</weight_unit>
+	</unit_set>
+	<!--
+	  ====================================
+	  ====================================
+			BIO
+	  ====================================
+	  ====================================-->
+	<basics>
+		<bonuses></bonuses>
+		<bonuses></bonuses>
+		<bonuses></bonuses>
+		<bonuses></bonuses>
+		<name>D20Pro Test 3.5</name>
+		<followerof></followerof>
+		<playername>LegacyKing</playername>
+		<charactertype>PC</charactertype>
+		<hero_points>0</hero_points>
+		<age>20</age>
+		<alignment>
+			<long>Lawful Good</long>
+			<short>LG</short>
+		</alignment>
+		<archetypes>
+		</archetypes>
+		<bab>+3</bab>
+		<bio></bio>
+		<birthday></birthday>
+		<birthplace></birthplace>
+		<catchphrase></catchphrase>
+		<classes>
+			<class>
+				<name>Fighter</name>
+				<abbreviation>Ftr</abbreviation>
+				<level>2</level>
+				<bonuslist>Fighter</bonuslist>
+				<sequence>0</sequence>
+				<sequence_shortform> Ftr2  Wiz2                 </sequence_shortform>
+			</class>
+			<class>
+				<name>Wizard</name>
+				<abbreviation>Wiz</abbreviation>
+				<level>2</level>
+				<bonuslist>Wizard</bonuslist>
+				<sequence>1</sequence>
+				<sequence_shortform> Ftr2  Wiz2                 </sequence_shortform>
+			</class>
+			<levels_total>4</levels_total>
+			<levels_ecl>4</levels_ecl>
+			<!-- shortform below should be removed - it can be derived from class info above -->
+			<shortform> Ftr2  Wiz2                 </shortform>
+			<!-- CLASSLIST is not extracted because we can derive it from the information above -->
+		</classes>
+		<deity>
+			<name>None</name>
+			<alignment></alignment>
+			<description>Due to closed content PCGEN cannot provide a list of deities, sorry but you need to homebrew your own list; Please see the Documentation for how to do so - http://www.pcgen-test.org/autobuilds/pcgen-docs/listfilepages/lstfileclass/lfc_lesson14_deities.html</description>
+			<domainlist>Air, Animal, Artifice, Chaos, Charm, Community, Creation, Darkness, Death, Destruction, Earth, Evil, Fire, Glory, Good, Healing, Knowledge, Law, Liberation, Luck, Madness, Magic, Mind, Nobility, Plant, Protection, Repose, Rune, Scalykind, Strength, Sun, Travel, Trickery, War, Water, Weather</domainlist>
+			<favoredweapon>ANY</favoredweapon>
+			<holyitem>None</holyitem>
+			<pantheonlist></pantheonlist>
+			<source>RSRD</source>
+			<special_abilities></special_abilities>
+			<appearance></appearance>
+			<title></title>
+			<worshippers></worshippers>
+		</deity>
+		<description></description>
+		<experience>
+			<current>6000</current>
+			<next_level>10000</next_level>
+			<factor>100%</factor>
+			<penalty>0%</penalty>
+		</experience>
+		<eyes>
+			<color>Green</color>
+		</eyes>
+		<hair>
+			<color>Golden</color>
+			<length>Braided</length>
+		</hair>
+		<skin>
+			<color>Tan</color>
+		</skin>
+		<cr>
+4
+		</cr>
+		<face>
+			<face>5 ft.</face>
+			<short>5 ft.</short>
+			<squares>1</squares>
+		</face>
+		<favoredlist>Any</favoredlist>
+		<followerlist></followerlist>
+		<gender>
+			<long>Male</long>
+			<short>Male</short>
+		</gender>
+		<handed>Right</handed>
+		<height>
+			<total>6&#39; 4&quot;</total>
+			<feet>6</feet>
+			<inches>4</inches>
+		</height>
+		<hitdice>(2d10)+(2d4)+4</hitdice>
+		<image>file:J:\pcgen\pcgen_trunk\Trunk\pcgen\characters/D20Pro Test 3.5.jpg</image>
+		<interests></interests>
+		<languages>
+			<language>Common</language>
+			<all>Common</all>
+		</languages>
+		<location></location>
+		<move>
+			<move>
+				<name>Walk</name>
+				<rate>30 ft.</rate>
+				<squares>6</squares>
+			</move>
+			<all>Walk 30 ft.</all>
+		</move>
+		<personality>
+			<trait></trait>
+			<trait></trait>
+		</personality>
+<!-->		<portrait></portrait>-->
+		<portrait>
+			<portrait></portrait>
+			<portrait_thumb></portrait_thumb>
+		</portrait>	
+		<phobias></phobias>
+		<race>Human</race>
+		<race>
+			<racetype>Humanoid</racetype>
+		</race>
+		<reach>
+			<reach>5 ft.</reach>
+			<squares>1</squares>
+		</reach>
+		<region>None</region>
+		<reputation>0</reputation>
+		<residence></residence>
+		<size>
+			<long>Medium</long>
+			<short>M</short>
+		</size>
+		<speechtendency></speechtendency>
+		<type>Humanoid</type>
+		<vision>
+			<vision>Darkvision (120 ft.)</vision>
+			<vision>See Etheral (120 ft.)</vision>
+			<vision>See Invisibility (120 ft.)</vision>
+			<all>Darkvision (120 ft.), See Etheral (120 ft.), See Invisibility (120 ft.)</all>
+		</vision>
+		<wealth>0</wealth>
+		<gold>0</gold>
+		<weight>
+			<weight_unit>210 lbs.</weight_unit>
+			<weight_nounit>210</weight_nounit>
+		</weight>
+		<poolpoints>
+			<cost>0</cost>
+			<current>0</current>
+		</poolpoints>
+		<notes>
+		</notes>
+	</basics>
+	<!--
+	  ====================================
+	  ====================================
+			ABILITIES
+	  ====================================
+	  ====================================-->
+	<abilities>
+		<ability>
+			<name>
+				<long>Strength</long>
+				<short>STR</short>
+			</name>
+			<score>15</score>
+			<modifier>+2</modifier>
+<!--
+		Old BASE tag does not give stats with racial, and other permentant adjustments.
+		Use NOTEMP.NOEQUIP instead of BASE gives the correct results.
+			<base>15</base>
+			<basemod>+2</basemod>
+-->
+			<base>15</base>
+			<basemod>+2</basemod>
+			<noequip>15</noequip>
+			<noequip_mod>+2</noequip_mod>
+			<no_temp_score>15</no_temp_score>
+			<no_temp_modifier>+2</no_temp_modifier>
+		</ability>
+		<ability>
+			<name>
+				<long>Dexterity</long>
+				<short>DEX</short>
+			</name>
+			<score>19</score>
+			<modifier>+4</modifier>
+<!--
+		Old BASE tag does not give stats with racial, and other permentant adjustments.
+		Use NOTEMP.NOEQUIP instead of BASE gives the correct results.
+			<base>13</base>
+			<basemod>+1</basemod>
+-->
+			<base>13</base>
+			<basemod>+1</basemod>
+			<noequip>13</noequip>
+			<noequip_mod>+1</noequip_mod>
+			<no_temp_score>19</no_temp_score>
+			<no_temp_modifier>+4</no_temp_modifier>
+		</ability>
+		<ability>
+			<name>
+				<long>Constitution</long>
+				<short>CON</short>
+			</name>
+			<score>13</score>
+			<modifier>+1</modifier>
+<!--
+		Old BASE tag does not give stats with racial, and other permentant adjustments.
+		Use NOTEMP.NOEQUIP instead of BASE gives the correct results.
+			<base>13</base>
+			<basemod>+1</basemod>
+-->
+			<base>13</base>
+			<basemod>+1</basemod>
+			<noequip>13</noequip>
+			<noequip_mod>+1</noequip_mod>
+			<no_temp_score>13</no_temp_score>
+			<no_temp_modifier>+1</no_temp_modifier>
+		</ability>
+		<ability>
+			<name>
+				<long>Intelligence</long>
+				<short>INT</short>
+			</name>
+			<score>23</score>
+			<modifier>+6</modifier>
+<!--
+		Old BASE tag does not give stats with racial, and other permentant adjustments.
+		Use NOTEMP.NOEQUIP instead of BASE gives the correct results.
+			<base>17</base>
+			<basemod>+3</basemod>
+-->
+			<base>17</base>
+			<basemod>+3</basemod>
+			<noequip>17</noequip>
+			<noequip_mod>+3</noequip_mod>
+			<no_temp_score>23</no_temp_score>
+			<no_temp_modifier>+6</no_temp_modifier>
+		</ability>
+		<ability>
+			<name>
+				<long>Wisdom</long>
+				<short>WIS</short>
+			</name>
+			<score>12</score>
+			<modifier>+1</modifier>
+<!--
+		Old BASE tag does not give stats with racial, and other permentant adjustments.
+		Use NOTEMP.NOEQUIP instead of BASE gives the correct results.
+			<base>12</base>
+			<basemod>+1</basemod>
+-->
+			<base>12</base>
+			<basemod>+1</basemod>
+			<noequip>12</noequip>
+			<noequip_mod>+1</noequip_mod>
+			<no_temp_score>12</no_temp_score>
+			<no_temp_modifier>+1</no_temp_modifier>
+		</ability>
+		<ability>
+			<name>
+				<long>Charisma</long>
+				<short>CHA</short>
+			</name>
+			<score>18</score>
+			<modifier>+4</modifier>
+<!--
+		Old BASE tag does not give stats with racial, and other permentant adjustments.
+		Use NOTEMP.NOEQUIP instead of BASE gives the correct results.
+			<base>18</base>
+			<basemod>+4</basemod>
+-->
+			<base>18</base>
+			<basemod>+4</basemod>
+			<noequip>18</noequip>
+			<noequip_mod>+4</noequip_mod>
+			<no_temp_score>18</no_temp_score>
+			<no_temp_modifier>+4</no_temp_modifier>
+		</ability>
+	</abilities>
+	<!--
+	  ====================================
+	  ====================================
+			HIT POINTS
+	  ====================================
+	  ====================================-->
+	<hit_points>
+		<usealternatedamage>0</usealternatedamage>
+		<points>32</points>
+		<alternate>13</alternate>
+		<die>(2d10)+(2d4)+4</die>
+		<die_short>4</die_short>
+		<current/>
+		<subdual/>
+		<damage_reduction></damage_reduction>
+		<damage_threshold>0</damage_threshold>
+		<history>
+			<roll>
+				<level>1</level>
+				<roll>10</roll>
+				<stat>1</stat>
+				<total>11</total>
+			</roll>
+			<roll>
+				<level>2</level>
+				<roll>10</roll>
+				<stat>1</stat>
+				<total>11</total>
+			</roll>
+			<roll>
+				<level>3</level>
+				<roll>4</roll>
+				<stat>1</stat>
+				<total>5</total>
+			</roll>
+			<roll>
+				<level>4</level>
+				<roll>4</roll>
+				<stat>1</stat>
+				<total>5</total>
+			</roll>
+		</history>
+	</hit_points>
+	<!--
+	  ====================================
+	  ====================================
+			ARMOR CLASS
+	  ====================================
+	  ====================================-->
+	<armor_class>
+		<total>29</total>
+		<listing>+2, ABILITY +4, ARMOR +8, BASE +10, DEFLECTION +5</listing>
+		<flat>29</flat>
+		<touch>21</touch>
+		<base>10</base>
+		<armor_bonus>8</armor_bonus>
+		<shield_bonus>0</shield_bonus>
+		<stat_mod>4</stat_mod>
+		<size_mod>0</size_mod>
+		<natural>0</natural>
+		<deflection>5</deflection>
+		<dodge>0</dodge>
+		<dodge_bonus>0</dodge_bonus>
+		<class_bonus>0</class_bonus>
+		<misc>2</misc>
+		<insight>0</insight>
+		<morale>0</morale>
+		<sacred>0</sacred>
+		<profane>0</profane>
+		<miss_chance/>
+		<max_dex></max_dex>
+		<spell_failure>0</spell_failure>
+		<check_penalty>+0</check_penalty>
+		<spell_resistance>0</spell_resistance>
+	</armor_class>
+	<!--
+	  ====================================
+	  ====================================
+			INITIATIVE
+	  ====================================
+	  ====================================-->
+	<initiative>
+		<total>+4</total>
+		<dex_mod>+4</dex_mod>
+		<misc_mod>+0</misc_mod>
+	</initiative>
+	<!--
+	  ====================================
+	  ====================================
+			SKILLS
+	  ====================================
+	  ====================================-->
+	<skillinfo>
+		<conditional_modifiers>
+		</conditional_modifiers>
+	</skillinfo>
+	<skills>
+		<conditional_modifiers>
+		</conditional_modifiers>
+		<skillpoints>
+			<total>42</total>
+			<used>42</used>
+			<unused>0</unused>
+			<eclipse_total>0</eclipse_total>
+		</skillpoints>
+		<list_mods>Climb +6, Craft (Armorsmithing) +13, Escape Artist +10, Handle Animal +8, Intimidate +8, Jump +7, Knowledge (Arcana) +10, Ride +9, Search +16, Spellcraft +12, Spot +11, Swim +7</list_mods>
+		<max_class_skill_level>7</max_class_skill_level>
+		<max_cross_class_skill_level>3.5</max_cross_class_skill_level>
+		<skill>
+			<name>Appraise</name>
+			<ranks>0.0</ranks>
+			<mod>6<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>6</skill_mod>
+			<ability_mod>6<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>INT</ability>
+			<synergy>Appraise</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>6</trained_total>
+			<exclusive_total>6</exclusive_total>
+			<type>Intelligence.Standard.Base.Appraise</type>
+		</skill>
+		<skill>
+			<name>Balance</name>
+			<ranks>0.0</ranks>
+			<mod>4<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>4</skill_mod>
+			<ability_mod>4<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>DEX</ability>
+			<synergy>Balance</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>4</trained_total>
+			<exclusive_total>4</exclusive_total>
+			<type>Dexterity.Standard.Base.Balance</type>
+		</skill>
+		<skill>
+			<name>Bluff</name>
+			<ranks>0.0</ranks>
+			<mod>4<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>4</skill_mod>
+			<ability_mod>4<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>CHA</ability>
+			<synergy>Bluff</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>4</trained_total>
+			<exclusive_total>4</exclusive_total>
+			<type>Charisma.Standard.Base.Bluff</type>
+		</skill>
+		<skill>
+			<name>Climb</name>
+			<ranks>4.0</ranks>
+			<mod>2<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>6</skill_mod>
+			<ability_mod>2<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>STR</ability>
+			<synergy>Climb</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>6</trained_total>
+			<exclusive_total>6</exclusive_total>
+			<type>Strength.Standard.Base.Climb</type>
+		</skill>
+		<skill>
+			<name>Concentration</name>
+			<ranks>0.0</ranks>
+			<mod>1<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>1</skill_mod>
+			<ability_mod>1<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>CON</ability>
+			<synergy>Concentration</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>1</trained_total>
+			<exclusive_total>1</exclusive_total>
+			<type>Constitution.Standard.Base.Concentration</type>
+		</skill>
+		<skill>
+			<name>Craft (Armorsmithing)</name>
+			<ranks>7.0</ranks>
+			<mod>6<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>13</skill_mod>
+			<ability_mod>6<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>INT</ability>
+			<synergy>Craft (Armorsmithing)</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>13</trained_total>
+			<exclusive_total>13</exclusive_total>
+			<type>SkillDisplay</type>
+		</skill>
+		<skill>
+			<name>Craft (Untrained)</name>
+			<ranks>0.0</ranks>
+			<mod>6<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>6</skill_mod>
+			<ability_mod>6<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>INT</ability>
+			<synergy>Craft (Untrained)</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>6</trained_total>
+			<exclusive_total>6</exclusive_total>
+			<type>Intelligence.Craft.Standard.Base.Craft (Untrained)</type>
+		</skill>
+		<skill>
+			<name>Diplomacy</name>
+			<ranks>0.0</ranks>
+			<mod>4<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>4</skill_mod>
+			<ability_mod>4<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>CHA</ability>
+			<synergy>Diplomacy</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>4</trained_total>
+			<exclusive_total>4</exclusive_total>
+			<type>Charisma.Standard.Base.Diplomacy</type>
+		</skill>
+		<skill>
+			<name>Disguise</name>
+			<ranks>0.0</ranks>
+			<mod>4<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>4</skill_mod>
+			<ability_mod>4<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>CHA</ability>
+			<synergy>Disguise</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>4</trained_total>
+			<exclusive_total>4</exclusive_total>
+			<type>Charisma.Standard.Base.Disguise</type>
+		</skill>
+		<skill>
+			<name>Escape Artist</name>
+			<ranks>0.0</ranks>
+			<mod>10<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>10</skill_mod>
+			<ability_mod>4<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>6<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>DEX</ability>
+			<synergy>Escape Artist</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>10</trained_total>
+			<exclusive_total>10</exclusive_total>
+			<type>Dexterity.Standard.Base.Escape Artist</type>
+		</skill>
+		<skill>
+			<name>Forgery</name>
+			<ranks>0.0</ranks>
+			<mod>6<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>6</skill_mod>
+			<ability_mod>6<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>INT</ability>
+			<synergy>Forgery</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>6</trained_total>
+			<exclusive_total>6</exclusive_total>
+			<type>Intelligence.Standard.Base.Forgery</type>
+		</skill>
+		<skill>
+			<name>Gather Information</name>
+			<ranks>0.0</ranks>
+			<mod>4<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>4</skill_mod>
+			<ability_mod>4<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>CHA</ability>
+			<synergy>Gather Information</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>4</trained_total>
+			<exclusive_total>4</exclusive_total>
+			<type>Charisma.Standard.Base.Gather Information</type>
+		</skill>
+		<skill>
+			<name>Handle Animal</name>
+			<ranks>4.0</ranks>
+			<mod>4<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>8</skill_mod>
+			<ability_mod>4<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>CHA</ability>
+			<synergy>Handle Animal</synergy>
+			<untrained>NO</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>8</trained_total>
+			<exclusive_total>8</exclusive_total>
+			<type>Charisma.Standard.Base.Handle Animal</type>
+		</skill>
+		<skill>
+			<name>Heal</name>
+			<ranks>0.0</ranks>
+			<mod>1<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>1</skill_mod>
+			<ability_mod>1<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>WIS</ability>
+			<synergy>Heal</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>1</trained_total>
+			<exclusive_total>1</exclusive_total>
+			<type>Wisdom.Standard.Base.Heal</type>
+		</skill>
+		<skill>
+			<name>Hide</name>
+			<ranks>0.0</ranks>
+			<mod>4<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>4</skill_mod>
+			<ability_mod>4<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>DEX</ability>
+			<synergy>Hide</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>4</trained_total>
+			<exclusive_total>4</exclusive_total>
+			<type>Dexterity.Standard.Base.Hide</type>
+		</skill>
+		<skill>
+			<name>Intimidate</name>
+			<ranks>4.0</ranks>
+			<mod>4<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>8</skill_mod>
+			<ability_mod>4<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>CHA</ability>
+			<synergy>Intimidate</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>8</trained_total>
+			<exclusive_total>8</exclusive_total>
+			<type>Charisma.Standard.Base.Intimidate</type>
+		</skill>
+		<skill>
+			<name>Jump</name>
+			<ranks>3.0</ranks>
+			<mod>4<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>7</skill_mod>
+			<ability_mod>2<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>2<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>STR</ability>
+			<synergy>Jump</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>7</trained_total>
+			<exclusive_total>7</exclusive_total>
+			<type>Strength.Standard.Base.Jump</type>
+		</skill>
+		<skill>
+			<name>Knowledge (Arcana)</name>
+			<ranks>4.0</ranks>
+			<mod>6<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>10</skill_mod>
+			<ability_mod>6<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>INT</ability>
+			<synergy>Knowledge (Arcana)</synergy>
+			<untrained>NO</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>10</trained_total>
+			<exclusive_total>10</exclusive_total>
+			<type>Intelligence.Knowledge.Standard.Base.Knowledge (Arcana)</type>
+		</skill>
+		<skill>
+			<name>Listen</name>
+			<ranks>0.0</ranks>
+			<mod>1<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>1</skill_mod>
+			<ability_mod>1<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>WIS</ability>
+			<synergy>Listen</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>1</trained_total>
+			<exclusive_total>1</exclusive_total>
+			<type>Wisdom.Standard.Base.Listen</type>
+		</skill>
+		<skill>
+			<name>Move Silently</name>
+			<ranks>0.0</ranks>
+			<mod>4<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>4</skill_mod>
+			<ability_mod>4<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>DEX</ability>
+			<synergy>Move Silently</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>4</trained_total>
+			<exclusive_total>4</exclusive_total>
+			<type>Dexterity.Standard.Base.Move Silently</type>
+		</skill>
+		<skill>
+			<name>Perform (Untrained)</name>
+			<ranks>0.0</ranks>
+			<mod>4<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>4</skill_mod>
+			<ability_mod>4<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>CHA</ability>
+			<synergy>Perform (Untrained)</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>4</trained_total>
+			<exclusive_total>4</exclusive_total>
+			<type>Charisma.Perform.Perform (Untrained)</type>
+		</skill>
+		<skill>
+			<name>Ride</name>
+			<ranks>5.0</ranks>
+			<mod>4<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>9</skill_mod>
+			<ability_mod>4<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>DEX</ability>
+			<synergy>Ride</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>9</trained_total>
+			<exclusive_total>9</exclusive_total>
+			<type>Dexterity.Standard.Base.Ride</type>
+		</skill>
+		<skill>
+			<name>Search</name>
+			<ranks>0.0</ranks>
+			<mod>16<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>16</skill_mod>
+			<ability_mod>6<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>10<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>INT</ability>
+			<synergy>Search</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>16</trained_total>
+			<exclusive_total>16</exclusive_total>
+			<type>Intelligence.Standard.Base.Search</type>
+		</skill>
+		<skill>
+			<name>Sense Motive</name>
+			<ranks>0.0</ranks>
+			<mod>1<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>1</skill_mod>
+			<ability_mod>1<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>WIS</ability>
+			<synergy>Sense Motive</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>1</trained_total>
+			<exclusive_total>1</exclusive_total>
+			<type>Wisdom.Standard.Base.Sense Motive</type>
+		</skill>
+		<skill>
+			<name>Spellcraft</name>
+			<ranks>6.0</ranks>
+			<mod>6<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>12</skill_mod>
+			<ability_mod>6<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>INT</ability>
+			<synergy>Spellcraft</synergy>
+			<untrained>NO</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>12</trained_total>
+			<exclusive_total>12</exclusive_total>
+			<type>Intelligence.Standard.Base.Spellcraft</type>
+		</skill>
+		<skill>
+			<name>Spot</name>
+			<ranks>0.0</ranks>
+			<mod>11<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>11</skill_mod>
+			<ability_mod>1<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>10<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>WIS</ability>
+			<synergy>Spot</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>11</trained_total>
+			<exclusive_total>11</exclusive_total>
+			<type>Wisdom.Standard.Base.Spot</type>
+		</skill>
+		<skill>
+			<name>Survival</name>
+			<ranks>0.0</ranks>
+			<mod>1<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>1</skill_mod>
+			<ability_mod>1<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>WIS</ability>
+			<synergy>Survival</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>1</trained_total>
+			<exclusive_total>1</exclusive_total>
+			<type>Wisdom.Standard.Base.Survival</type>
+		</skill>
+		<skill>
+			<name>Swim</name>
+			<ranks>5.0</ranks>
+			<mod>2<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>7</skill_mod>
+			<ability_mod>2<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>STR</ability>
+			<synergy>Swim</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>7</trained_total>
+			<exclusive_total>7</exclusive_total>
+			<type>Strength.Standard.Base.Swim</type>
+		</skill>
+		<skill>
+			<name>Use Rope</name>
+			<ranks>0.0</ranks>
+			<mod>4<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>4</skill_mod>
+			<ability_mod>4<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>DEX</ability>
+			<synergy>Use Rope</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>4</trained_total>
+			<exclusive_total>4</exclusive_total>
+			<type>Dexterity.Standard.Base.Use Rope</type>
+		</skill>
+		<skill>
+			<name></name>
+			<ranks></ranks>
+			<mod><!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod></skill_mod>
+			<ability_mod><!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod><!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability></ability>
+			<synergy></synergy>
+			<untrained></untrained>
+			<exclusive></exclusive>
+			<trained_total></trained_total>
+			<exclusive_total></exclusive_total>
+			<type></type>
+		</skill>
+<!-- Skills -->
+	</skills>
+	<!--
+	  ====================================
+	  ====================================
+			SAVING THROWS
+	  ====================================
+	  ====================================-->
+	<saving_throws>
+		<conditional_modifiers>
+		</conditional_modifiers>
+		<saving_throw>
+			<name>
+				<long>fortitude</long>
+				<short>fort</short>
+			</name>
+			<ability>constitution</ability>
+			<total>+9</total>
+			<base>+3</base>
+			<abil_mod>+1</abil_mod>
+			<feats>+0</feats>
+			<magic_mod>+5</magic_mod>
+			<misc_mod>+0</misc_mod>
+			<misc_w_magic_mod>+5</misc_w_magic_mod>
+			<race>+0</race>
+			<epic_mod>+0</epic_mod>
+			<temp_mod/>
+		</saving_throw>
+		<saving_throw>
+			<name>
+				<long>reflex</long>
+				<short>ref</short>
+			</name>
+			<ability>dexterity</ability>
+			<total>+9</total>
+			<base>+0</base>
+			<feats>+0</feats>
+			<abil_mod>+4</abil_mod>
+			<magic_mod>+5</magic_mod>
+			<misc_mod>+0</misc_mod>
+			<misc_w_magic_mod>+5</misc_w_magic_mod>
+			<race>+0</race>
+			<epic_mod>+0</epic_mod>
+			<temp_mod/>
+		</saving_throw>
+		<saving_throw>
+			<name>
+				<long>will</long>
+				<short>will</short>
+			</name>
+			<ability>wisdom</ability>
+			<total>+9</total>
+			<base>+3</base>
+			<abil_mod>+1</abil_mod>
+			<feats>+0</feats>
+			<magic_mod>+5</magic_mod>
+			<misc_mod>+0</misc_mod>
+			<misc_w_magic_mod>+5</misc_w_magic_mod>
+			<race>+0</race>
+			<epic_mod>+0</epic_mod>
+			<temp_mod/>
+		</saving_throw>
+	</saving_throws>
+	<!--
+	  ====================================
+	  ====================================
+			ATTACK
+	  ====================================
+	  ====================================-->
+	<attack>
+		<melee>
+			<total>+5</total>
+			<total_short>+5</total_short>
+			<bab>+3</bab>
+			<base_attack_bonus>+3</base_attack_bonus>
+			<stat_mod>+2</stat_mod>
+			<size_mod>+0</size_mod>
+			<misc_mod>+0</misc_mod>
+			<epic_mod>+0</epic_mod>
+			<temp_mod/>
+		</melee>
+		<ranged>
+			<total>+7</total>
+			<bab>+3</bab>
+			<base_attack_bonus>+3</base_attack_bonus>
+			<stat_mod>+4</stat_mod>
+			<size_mod>+0</size_mod>
+			<misc_mod>+0</misc_mod>
+			<epic_mod>+0</epic_mod>
+			<temp_mod/>
+		</ranged>
+		<!-- Either CMB block, or Grapple Block -->
+			<grapple>
+				<total>+5</total>
+				<bab>+3</bab>
+				<base_attack_bonus>+3</base_attack_bonus>
+				<stat_mod>+2</stat_mod>
+				<size_mod>+0</size_mod>
+				<misc_mod>+0</misc_mod>
+				<epic_mod>+0</epic_mod>
+				<temp_mod/>
+			</grapple>
+		<!-- End CMB / Grapple Block -->
+	</attack>
+	<!--
+	  ====================================
+	  ====================================
+			WEAPONS
+	  ====================================
+	  ====================================-->
+	<weapons>
+		<unarmed>
+			<total>+5</total>
+			<damage>1d8+2</damage>
+			<critical>20/x2</critical>
+			<!-- Should be changed to a variable due to improved crit -->
+			<reach>5 ft.</reach>
+						<!-- Commenting this out (will need a test as well)
+			3.0 uses "Subdual", 3.5 uses "nonlethal".  We'll need a separate node for both.
+			<type>(subdual only)</type>
+			 -->
+		</unarmed>
+<!-- Spirit Weapon - Melee -->
+<!-- Spirit Weapon - Ranged -->
+<!-- End Spirit Weapon - Ranged -->
+	<!-- Natural Attack -->
+	</weapons>
+	<!--
+	  ====================================
+	  ====================================
+			ARMOR
+	  ====================================
+	  ====================================-->
+	<protection>
+		<item>
+			<name>*Bracers of Armor +8</name>
+			<acbonus>+8</acbonus>
+			<accheck>+0</accheck>
+			<baseac>+8</baseac>
+			<edr>+0</edr>
+			<maxdex></maxdex>
+			<move></move>
+			<spellfail>0</spellfail>
+			<special_properties></special_properties>
+			<totalac>+8</totalac>
+			<type></type>
+			<wt>1</wt>
+		</item>
+		<item>
+			<name>*Ring of Protection +5</name>
+			<acbonus>+5</acbonus>
+			<accheck>+0</accheck>
+			<baseac>+5</baseac>
+			<edr>+0</edr>
+			<maxdex></maxdex>
+			<move></move>
+			<spellfail>0</spellfail>
+			<special_properties></special_properties>
+			<totalac>+5</totalac>
+			<type></type>
+			<wt>0</wt>
+		</item>
+		<item>
+			<name>*Belt, Monk&#39;s</name>
+			<acbonus>+2</acbonus>
+			<accheck>+0</accheck>
+			<baseac>+2</baseac>
+			<edr>+0</edr>
+			<maxdex></maxdex>
+			<move></move>
+			<spellfail>0</spellfail>
+			<special_properties></special_properties>
+			<totalac>+2</totalac>
+			<type></type>
+			<wt>1</wt>
+		</item>
+	</protection>
+	<!--
+	  ====================================
+	  ====================================
+			CLASS-DEPENDANT FEATURES
+	  ====================================
+	  ====================================-->
+	<class_features>
+<!-- Pathfinder -->
+
+<!-- D&D 3.0 -->
+
+<!-- D&D 3.5 -->
+
+
+
+
+
+
+
+
+
+
+	<!-- Bard -->
+<!-- Pathfinder -->
+	<!-- Character Rage -->
+	<!-- Character Rage -->
+	<!-- Turning ability -->
+<!-- Eclipse Channeling -->
+<!-- Channel Energy -->
+
+	<!-- 3.0 stunning fist -->
+	<!-- 3.0 stunning fist -->
+	<!-- 3.5 stunning fist -->
+	<!-- 3.0 wholeness of body -->
+	<!-- 3.5 wholeness of body -->
+	<!-- Psionics -->
+
+
+
+
+	</class_features>
+	<!-- Abilites with check lists -->
+	<checklists>
+	</checklists>
+	<!-- Proficiency lists -->
+	<proficiency_specials>
+</proficiency_specials>
+<!--
+	  ====================================
+	  ====================================
+			EQUIPMENT
+	  ====================================
+	  ====================================-->
+	<equipment>
+		<item>
+			<longname>Headband of Intellect +6</longname>
+			<id></id>
+			<name>Headband of Intellect +6</name>
+			<carried>1.0</carried>
+			<charges></charges>
+			<charges_used></charges_used>
+			<contents></contents>
+			<contents_num>0</contents_num>
+			<content_weight>0</content_weight>
+			<cost>36000</cost>
+			<equipped>Y</equipped>
+			<location>Equipped</location>
+			<locationId></locationId>
+			<maxcharges>0</maxcharges>
+			<note></note>
+			<quantity>1</quantity>
+			<checkbox>1</checkbox>
+			<size>
+				<long>Medium</long>
+				<short>M</short>
+			</size>
+			<special_properties></special_properties>
+			<type>MAGIC.WONDROUS.HEADGEAR</type>
+			<weight>0</weight>
+			<total_wt>0</total_wt>
+			<total_weight>0</total_weight>
+			<bonuslist></bonuslist>
+			<acmod>0</acmod>
+			<maxdex>100</maxdex>
+			<accheck>0</accheck>
+			<edr>0</edr>
+			<move></move>
+			<spell_failure>0</spell_failure>
+			<damage></damage>
+			<damage_alt></damage_alt>
+			<crit_range></crit_range>
+			<crit_mult></crit_mult>
+			<crit_range_alt></crit_range_alt>
+			<crit_mult_alt></crit_mult_alt>
+			<range>0 ft.</range>
+			<attacks>0.0</attacks>
+			<prof></prof>
+			<source>RSRD, MagicItemsV</source>
+			<quality></quality>
+		</item>
+		<item>
+			<longname>Bracers of Armor +8</longname>
+			<id></id>
+			<name>Bracers of Armor +8</name>
+			<carried>1.0</carried>
+			<charges></charges>
+			<charges_used></charges_used>
+			<contents></contents>
+			<contents_num>0</contents_num>
+			<content_weight>0</content_weight>
+			<cost>64000</cost>
+			<equipped>Y</equipped>
+			<location>Equipped</location>
+			<locationId></locationId>
+			<maxcharges>0</maxcharges>
+			<note></note>
+			<quantity>1</quantity>
+			<checkbox>1</checkbox>
+			<size>
+				<long>Medium</long>
+				<short>M</short>
+			</size>
+			<special_properties></special_properties>
+			<type>MAGIC.WONDROUS.BRACER</type>
+			<weight>1</weight>
+			<total_wt>1</total_wt>
+			<total_weight>1</total_weight>
+			<bonuslist></bonuslist>
+			<acmod>8</acmod>
+			<maxdex>100</maxdex>
+			<accheck>0</accheck>
+			<edr>0</edr>
+			<move></move>
+			<spell_failure>0</spell_failure>
+			<damage></damage>
+			<damage_alt></damage_alt>
+			<crit_range></crit_range>
+			<crit_mult></crit_mult>
+			<crit_range_alt></crit_range_alt>
+			<crit_mult_alt></crit_mult_alt>
+			<range>0 ft.</range>
+			<attacks>0.0</attacks>
+			<prof></prof>
+			<source>RSRD, MagicItemsV</source>
+			<quality></quality>
+		</item>
+		<item>
+			<longname>Gloves of Dexterity +6</longname>
+			<id></id>
+			<name>Gloves of Dexterity +6</name>
+			<carried>1.0</carried>
+			<charges></charges>
+			<charges_used></charges_used>
+			<contents></contents>
+			<contents_num>0</contents_num>
+			<content_weight>0</content_weight>
+			<cost>36000</cost>
+			<equipped>Y</equipped>
+			<location>Equipped</location>
+			<locationId></locationId>
+			<maxcharges>0</maxcharges>
+			<note></note>
+			<quantity>1</quantity>
+			<checkbox>1</checkbox>
+			<size>
+				<long>Medium</long>
+				<short>M</short>
+			</size>
+			<special_properties></special_properties>
+			<type>MAGIC.WONDROUS.GLOVE</type>
+			<weight>0</weight>
+			<total_wt>0</total_wt>
+			<total_weight>0</total_weight>
+			<bonuslist></bonuslist>
+			<acmod>0</acmod>
+			<maxdex>100</maxdex>
+			<accheck>0</accheck>
+			<edr>0</edr>
+			<move></move>
+			<spell_failure>0</spell_failure>
+			<damage></damage>
+			<damage_alt></damage_alt>
+			<crit_range></crit_range>
+			<crit_mult></crit_mult>
+			<crit_range_alt></crit_range_alt>
+			<crit_mult_alt></crit_mult_alt>
+			<range>0 ft.</range>
+			<attacks>0.0</attacks>
+			<prof></prof>
+			<source>RSRD, MagicItemsV</source>
+			<quality></quality>
+		</item>
+		<item>
+			<longname>Ring of Blinking</longname>
+			<id></id>
+			<name>Ring of Blinking</name>
+			<carried>1.0</carried>
+			<charges></charges>
+			<charges_used></charges_used>
+			<contents></contents>
+			<contents_num>0</contents_num>
+			<content_weight>0</content_weight>
+			<cost>27000</cost>
+			<equipped>Y</equipped>
+			<location>Equipped</location>
+			<locationId></locationId>
+			<maxcharges>0</maxcharges>
+			<note></note>
+			<quantity>1</quantity>
+			<checkbox>1</checkbox>
+			<size>
+				<long>Medium</long>
+				<short>M</short>
+			</size>
+			<special_properties></special_properties>
+			<type>MAGIC.RING</type>
+			<weight>0</weight>
+			<total_wt>0</total_wt>
+			<total_weight>0</total_weight>
+			<bonuslist></bonuslist>
+			<acmod>0</acmod>
+			<maxdex>100</maxdex>
+			<accheck>0</accheck>
+			<edr>0</edr>
+			<move></move>
+			<spell_failure>0</spell_failure>
+			<damage></damage>
+			<damage_alt></damage_alt>
+			<crit_range></crit_range>
+			<crit_mult></crit_mult>
+			<crit_range_alt></crit_range_alt>
+			<crit_mult_alt></crit_mult_alt>
+			<range>0 ft.</range>
+			<attacks>0.0</attacks>
+			<prof></prof>
+			<source>RSRD, MagicItemsIII</source>
+			<quality></quality>
+		</item>
+		<item>
+			<longname>Ring of Protection +5</longname>
+			<id></id>
+			<name>Ring of Protection +5</name>
+			<carried>1.0</carried>
+			<charges></charges>
+			<charges_used></charges_used>
+			<contents></contents>
+			<contents_num>0</contents_num>
+			<content_weight>0</content_weight>
+			<cost>50000</cost>
+			<equipped>Y</equipped>
+			<location>Equipped</location>
+			<locationId></locationId>
+			<maxcharges>0</maxcharges>
+			<note></note>
+			<quantity>1</quantity>
+			<checkbox>1</checkbox>
+			<size>
+				<long>Medium</long>
+				<short>M</short>
+			</size>
+			<special_properties></special_properties>
+			<type>MAGIC.RING</type>
+			<weight>0</weight>
+			<total_wt>0</total_wt>
+			<total_weight>0</total_weight>
+			<bonuslist></bonuslist>
+			<acmod>5</acmod>
+			<maxdex>100</maxdex>
+			<accheck>0</accheck>
+			<edr>0</edr>
+			<move></move>
+			<spell_failure>0</spell_failure>
+			<damage></damage>
+			<damage_alt></damage_alt>
+			<crit_range></crit_range>
+			<crit_mult></crit_mult>
+			<crit_range_alt></crit_range_alt>
+			<crit_mult_alt></crit_mult_alt>
+			<range>0 ft.</range>
+			<attacks>0.0</attacks>
+			<prof></prof>
+			<source>RSRD, MagicItemsIII</source>
+			<quality></quality>
+		</item>
+		<item>
+			<longname>Cloak of Resistance +5</longname>
+			<id></id>
+			<name>Cloak of Resistance +5</name>
+			<carried>1.0</carried>
+			<charges></charges>
+			<charges_used></charges_used>
+			<contents></contents>
+			<contents_num>0</contents_num>
+			<content_weight>0</content_weight>
+			<cost>25000</cost>
+			<equipped>Y</equipped>
+			<location>Equipped</location>
+			<locationId></locationId>
+			<maxcharges>0</maxcharges>
+			<note></note>
+			<quantity>1</quantity>
+			<checkbox>1</checkbox>
+			<size>
+				<long>Medium</long>
+				<short>M</short>
+			</size>
+			<special_properties></special_properties>
+			<type>MAGIC.WONDROUS.CAPE</type>
+			<weight>1</weight>
+			<total_wt>1</total_wt>
+			<total_weight>1</total_weight>
+			<bonuslist></bonuslist>
+			<acmod>0</acmod>
+			<maxdex>100</maxdex>
+			<accheck>0</accheck>
+			<edr>0</edr>
+			<move></move>
+			<spell_failure>0</spell_failure>
+			<damage></damage>
+			<damage_alt></damage_alt>
+			<crit_range></crit_range>
+			<crit_mult></crit_mult>
+			<crit_range_alt></crit_range_alt>
+			<crit_mult_alt></crit_mult_alt>
+			<range>0 ft.</range>
+			<attacks>0.0</attacks>
+			<prof></prof>
+			<source>RSRD, MagicItemsV</source>
+			<quality></quality>
+		</item>
+		<item>
+			<longname>Robe of Eyes</longname>
+			<id></id>
+			<name>Robe of Eyes</name>
+			<carried>1.0</carried>
+			<charges></charges>
+			<charges_used></charges_used>
+			<contents></contents>
+			<contents_num>0</contents_num>
+			<content_weight>0</content_weight>
+			<cost>120000</cost>
+			<equipped>Y</equipped>
+			<location>Equipped</location>
+			<locationId></locationId>
+			<maxcharges>0</maxcharges>
+			<note></note>
+			<quantity>1</quantity>
+			<checkbox>1</checkbox>
+			<size>
+				<long>Medium</long>
+				<short>M</short>
+			</size>
+			<special_properties>Can&#39;t avert eyes from Gaze Attack</special_properties>
+			<type>MAGIC.WONDROUS.ROBE</type>
+			<weight>1</weight>
+			<total_wt>1</total_wt>
+			<total_weight>1</total_weight>
+			<bonuslist></bonuslist>
+			<acmod>0</acmod>
+			<maxdex>100</maxdex>
+			<accheck>0</accheck>
+			<edr>0</edr>
+			<move></move>
+			<spell_failure>0</spell_failure>
+			<damage></damage>
+			<damage_alt></damage_alt>
+			<crit_range></crit_range>
+			<crit_mult></crit_mult>
+			<crit_range_alt></crit_range_alt>
+			<crit_mult_alt></crit_mult_alt>
+			<range>0 ft.</range>
+			<attacks>0.0</attacks>
+			<prof></prof>
+			<source>RSRD, MagicItemsV</source>
+			<quality></quality>
+		</item>
+		<item>
+			<longname>Vest of Escape</longname>
+			<id></id>
+			<name>Vest of Escape</name>
+			<carried>1.0</carried>
+			<charges></charges>
+			<charges_used></charges_used>
+			<contents></contents>
+			<contents_num>0</contents_num>
+			<content_weight>0</content_weight>
+			<cost>5200</cost>
+			<equipped>Y</equipped>
+			<location>Equipped</location>
+			<locationId></locationId>
+			<maxcharges>0</maxcharges>
+			<note></note>
+			<quantity>1</quantity>
+			<checkbox>1</checkbox>
+			<size>
+				<long>Medium</long>
+				<short>M</short>
+			</size>
+			<special_properties></special_properties>
+			<type>MAGIC.WONDROUS.SHIRT</type>
+			<weight>0</weight>
+			<total_wt>0</total_wt>
+			<total_weight>0</total_weight>
+			<bonuslist></bonuslist>
+			<acmod>0</acmod>
+			<maxdex>100</maxdex>
+			<accheck>0</accheck>
+			<edr>0</edr>
+			<move></move>
+			<spell_failure>0</spell_failure>
+			<damage></damage>
+			<damage_alt></damage_alt>
+			<crit_range></crit_range>
+			<crit_mult></crit_mult>
+			<crit_range_alt></crit_range_alt>
+			<crit_mult_alt></crit_mult_alt>
+			<range>0 ft.</range>
+			<attacks>0.0</attacks>
+			<prof></prof>
+			<source>RSRD, MagicItemsV</source>
+			<quality></quality>
+		</item>
+		<item>
+			<longname>Boots of Speed</longname>
+			<id></id>
+			<name>Boots of Speed</name>
+			<carried>1.0</carried>
+			<charges></charges>
+			<charges_used></charges_used>
+			<contents></contents>
+			<contents_num>0</contents_num>
+			<content_weight>0</content_weight>
+			<cost>12000</cost>
+			<equipped>Y</equipped>
+			<location>Equipped</location>
+			<locationId></locationId>
+			<maxcharges>0</maxcharges>
+			<note></note>
+			<quantity>1</quantity>
+			<checkbox>1</checkbox>
+			<size>
+				<long>Medium</long>
+				<short>M</short>
+			</size>
+			<special_properties></special_properties>
+			<type>MAGIC.WONDROUS.BOOT</type>
+			<weight>1</weight>
+			<total_wt>1</total_wt>
+			<total_weight>1</total_weight>
+			<bonuslist></bonuslist>
+			<acmod>0</acmod>
+			<maxdex>100</maxdex>
+			<accheck>0</accheck>
+			<edr>0</edr>
+			<move></move>
+			<spell_failure>0</spell_failure>
+			<damage></damage>
+			<damage_alt></damage_alt>
+			<crit_range></crit_range>
+			<crit_mult></crit_mult>
+			<crit_range_alt></crit_range_alt>
+			<crit_mult_alt></crit_mult_alt>
+			<range>0 ft.</range>
+			<attacks>0.0</attacks>
+			<prof></prof>
+			<source>RSRD, MagicItemsV</source>
+			<quality></quality>
+		</item>
+		<item>
+			<longname>Belt, Monk&#39;s</longname>
+			<id></id>
+			<name>Belt, Monk&#39;s</name>
+			<carried>1.0</carried>
+			<charges></charges>
+			<charges_used></charges_used>
+			<contents></contents>
+			<contents_num>0</contents_num>
+			<content_weight>0</content_weight>
+			<cost>13000</cost>
+			<equipped>Y</equipped>
+			<location>Equipped</location>
+			<locationId></locationId>
+			<maxcharges>0</maxcharges>
+			<note></note>
+			<quantity>1</quantity>
+			<checkbox>1</checkbox>
+			<size>
+				<long>Medium</long>
+				<short>M</short>
+			</size>
+			<special_properties></special_properties>
+			<type>MAGIC.WONDROUS.BELT</type>
+			<weight>1</weight>
+			<total_wt>1</total_wt>
+			<total_weight>1</total_weight>
+			<bonuslist></bonuslist>
+			<acmod>2</acmod>
+			<maxdex>100</maxdex>
+			<accheck>0</accheck>
+			<edr>0</edr>
+			<move></move>
+			<spell_failure>0</spell_failure>
+			<damage></damage>
+			<damage_alt></damage_alt>
+			<crit_range></crit_range>
+			<crit_mult></crit_mult>
+			<crit_range_alt></crit_range_alt>
+			<crit_mult_alt></crit_mult_alt>
+			<range>0 ft.</range>
+			<attacks>0.0</attacks>
+			<prof></prof>
+			<source>RSRD, MagicItemsV</source>
+			<quality></quality>
+		</item>
+		<item>
+			<longname>Staff of Defense</longname>
+			<id></id>
+			<name>Staff of Defense</name>
+			<carried>1.0</carried>
+			<charges>50</charges>
+			<charges_used>0</charges_used>
+			<contents></contents>
+			<contents_num>0</contents_num>
+			<content_weight>0</content_weight>
+			<cost>58250</cost>
+			<equipped>Y</equipped>
+			<location>Equipped</location>
+			<locationId></locationId>
+			<maxcharges>50</maxcharges>
+			<note></note>
+			<quantity>1</quantity>
+			<checkbox>1</checkbox>
+			<size>
+				<long>Medium</long>
+				<short>M</short>
+			</size>
+			<special_properties></special_properties>
+			<type>MAGIC.STAFF</type>
+			<weight>5</weight>
+			<total_wt>5</total_wt>
+			<total_weight>5</total_weight>
+			<bonuslist></bonuslist>
+			<acmod>0</acmod>
+			<maxdex>100</maxdex>
+			<accheck>0</accheck>
+			<edr>0</edr>
+			<move></move>
+			<spell_failure>0</spell_failure>
+			<damage></damage>
+			<damage_alt></damage_alt>
+			<crit_range></crit_range>
+			<crit_mult></crit_mult>
+			<crit_range_alt></crit_range_alt>
+			<crit_mult_alt></crit_mult_alt>
+			<range>0 ft.</range>
+			<attacks>0.0</attacks>
+			<prof></prof>
+			<source>RSRD, MagicItemsIV</source>
+			<quality></quality>
+		</item>
+		<total>
+			<weight>10 lbs.</weight>
+			<value>446450 gp</value>
+			<load>Light</load>
+			<capacity>200</capacity>
+		</total>
+		<equipmentsets>
+
+		<equipmentset name="Default Set">
+				<item>
+					<longname>Headband of Intellect +6</longname>
+					<name>Headband of Intellect +6</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>36000</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>MAGIC.WONDROUS.HEADGEAR</type>
+					<weight>0</weight>
+					<total_wt>0</total_wt>
+					<total_weight>0</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage></damage>
+					<damage_alt></damage_alt>
+					<crit_range></crit_range>
+					<crit_mult></crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof></prof>
+					<source>RSRD, MagicItemsV</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Bracers of Armor +8</longname>
+					<name>Bracers of Armor +8</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>64000</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>MAGIC.WONDROUS.BRACER</type>
+					<weight>1</weight>
+					<total_wt>1</total_wt>
+					<total_weight>1</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>8</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage></damage>
+					<damage_alt></damage_alt>
+					<crit_range></crit_range>
+					<crit_mult></crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof></prof>
+					<source>RSRD, MagicItemsV</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Gloves of Dexterity +6</longname>
+					<name>Gloves of Dexterity +6</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>36000</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>MAGIC.WONDROUS.GLOVE</type>
+					<weight>0</weight>
+					<total_wt>0</total_wt>
+					<total_weight>0</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage></damage>
+					<damage_alt></damage_alt>
+					<crit_range></crit_range>
+					<crit_mult></crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof></prof>
+					<source>RSRD, MagicItemsV</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Ring of Blinking</longname>
+					<name>Ring of Blinking</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>27000</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>MAGIC.RING</type>
+					<weight>0</weight>
+					<total_wt>0</total_wt>
+					<total_weight>0</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage></damage>
+					<damage_alt></damage_alt>
+					<crit_range></crit_range>
+					<crit_mult></crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof></prof>
+					<source>RSRD, MagicItemsIII</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Ring of Protection +5</longname>
+					<name>Ring of Protection +5</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>50000</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>MAGIC.RING</type>
+					<weight>0</weight>
+					<total_wt>0</total_wt>
+					<total_weight>0</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>5</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage></damage>
+					<damage_alt></damage_alt>
+					<crit_range></crit_range>
+					<crit_mult></crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof></prof>
+					<source>RSRD, MagicItemsIII</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Cloak of Resistance +5</longname>
+					<name>Cloak of Resistance +5</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>25000</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>MAGIC.WONDROUS.CAPE</type>
+					<weight>1</weight>
+					<total_wt>1</total_wt>
+					<total_weight>1</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage></damage>
+					<damage_alt></damage_alt>
+					<crit_range></crit_range>
+					<crit_mult></crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof></prof>
+					<source>RSRD, MagicItemsV</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Robe of Eyes</longname>
+					<name>Robe of Eyes</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>120000</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties>Can&#39;t avert eyes from Gaze Attack</special_properties>
+					<type>MAGIC.WONDROUS.ROBE</type>
+					<weight>1</weight>
+					<total_wt>1</total_wt>
+					<total_weight>1</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage></damage>
+					<damage_alt></damage_alt>
+					<crit_range></crit_range>
+					<crit_mult></crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof></prof>
+					<source>RSRD, MagicItemsV</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Vest of Escape</longname>
+					<name>Vest of Escape</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>5200</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>MAGIC.WONDROUS.SHIRT</type>
+					<weight>0</weight>
+					<total_wt>0</total_wt>
+					<total_weight>0</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage></damage>
+					<damage_alt></damage_alt>
+					<crit_range></crit_range>
+					<crit_mult></crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof></prof>
+					<source>RSRD, MagicItemsV</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Boots of Speed</longname>
+					<name>Boots of Speed</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>12000</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>MAGIC.WONDROUS.BOOT</type>
+					<weight>1</weight>
+					<total_wt>1</total_wt>
+					<total_weight>1</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage></damage>
+					<damage_alt></damage_alt>
+					<crit_range></crit_range>
+					<crit_mult></crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof></prof>
+					<source>RSRD, MagicItemsV</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Belt, Monk&#39;s</longname>
+					<name>Belt, Monk&#39;s</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>13000</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>MAGIC.WONDROUS.BELT</type>
+					<weight>1</weight>
+					<total_wt>1</total_wt>
+					<total_weight>1</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>2</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage></damage>
+					<damage_alt></damage_alt>
+					<crit_range></crit_range>
+					<crit_mult></crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof></prof>
+					<source>RSRD, MagicItemsV</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Staff of Defense</longname>
+					<name>Staff of Defense</name>
+					<carried>1.0</carried>
+					<charges>50</charges>
+					<charges_used>0</charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>58250</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>50</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>MAGIC.STAFF</type>
+					<weight>5</weight>
+					<total_wt>5</total_wt>
+					<total_weight>5</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage></damage>
+					<damage_alt></damage_alt>
+					<crit_range></crit_range>
+					<crit_mult></crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof></prof>
+					<source>RSRD, MagicItemsIV</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+			</equipmentset>
+
+		</equipmentsets>
+	</equipment>
+	<weight_allowance>
+		<light>66</light>
+		<medium>133</medium>
+		<heavy>200</heavy>
+		<lift_over_head>200</lift_over_head>
+		<lift_off_ground>400</lift_off_ground>
+		<!-- And loses Dex bonus to AC and can only move 5 feet per round as a full-round action -->
+		<push_drag>1000</push_drag>
+	</weight_allowance>
+	<!--
+	  ====================================
+	  ====================================
+			SPECIAL ABILITIES
+	  ====================================
+	  ====================================-->
+	<special_abilities>
+		<race></race>
+		<class>
+			<class>Fighter</class>
+			<ability></ability>
+		</class>
+		<class>
+			<class>Wizard</class>
+			<ability></ability>
+		</class>
+	</special_abilities>
+	<!--
+	  ====================================
+	  ====================================
+			FEATS
+	  ====================================
+	  ====================================-->
+	<feats>
+		<!-- Visible standard feats (not including the auto feats) -->
+		<feat>
+			<name>Acrobatic</name>
+			<description>You get a +2 bonus on all Jump checks and Tumble checks.</description>
+			<type>GENERAL</type>
+			<associated></associated>
+			<count>0</count>
+			<auto>F</auto>
+			<hidden>F</hidden>
+			<virtual>F</virtual>
+			<source>RSRD, Feats</source>
+		</feat>
+		<feat>
+			<name>Blind-Fight</name>
+			<description>In melee, every time you miss because of concealment, you can reroll your miss chance percentile roll one time to see if you actually hit.</description>
+			<type>GENERAL.FIGHTER.ATTACKOPTION</type>
+			<associated></associated>
+			<count>0</count>
+			<auto>F</auto>
+			<hidden>F</hidden>
+			<virtual>F</virtual>
+			<source>RSRD, Feats</source>
+		</feat>
+		<feat>
+			<name>Combat Casting</name>
+			<description>You get a +4 bonus on Concentration checks made to cast a spell or use a spell-like ability while on the defensive or while you are grappling or pinned.</description>
+			<type>GENERAL.EPICWIZARD.COSMICDESCRYER</type>
+			<associated></associated>
+			<count>0</count>
+			<auto>F</auto>
+			<hidden>F</hidden>
+			<virtual>F</virtual>
+			<source>RSRD, Feats</source>
+		</feat>
+		<feat>
+			<name>Combat Expertise</name>
+			<description>When you use the attack action or the full attack action in melee, you can take a penalty of as much as 3 on your attack roll and add the same number as a dodge bonus to your Armor Class.</description>
+			<type>GENERAL.FIGHTER.ATTACKOPTION.MODIFYAC</type>
+			<associated></associated>
+			<count>0</count>
+			<auto>F</auto>
+			<hidden>F</hidden>
+			<virtual>F</virtual>
+			<source>RSRD, Feats</source>
+		</feat>
+		<feat>
+			<name>Power Attack</name>
+			<description>On your action, before making attack rolls for a round, you may choose to subtract up to 3 from all melee attack rolls and add the same number to all melee damage rolls.</description>
+			<type>GENERAL.FIGHTER.ATTACKOPTION</type>
+			<associated></associated>
+			<count>0</count>
+			<auto>F</auto>
+			<hidden>F</hidden>
+			<virtual>F</virtual>
+			<source>RSRD, Feats</source>
+		</feat>
+		<feat>
+			<name>Weapon Focus (Longsword)</name>
+			<description>You gain a +1 bonus on all attack rolls you make using the selected weapon.</description>
+			<type>GENERAL.FIGHTER</type>
+			<associated>Longsword</associated>
+			<count>1</count>
+			<auto>F</auto>
+			<hidden>F</hidden>
+			<virtual>F</virtual>
+			<source>RSRD, Feats</source>
+		</feat>
+		<!-- Auto feats -->
+		<feat>
+			<name>Scribe Scroll</name>
+			<description>You can create a scroll of any spell that you know.</description>
+			<type>ITEMCREATION.WIZARD</type>
+			<associated></associated>
+			<count>0</count>
+			<auto>T</auto>
+			<hidden>F</hidden>
+			<virtual>F</virtual>
+			<source>RSRD, Feats</source>
+		</feat>
+		<!-- Virtual Feats -->
+		<!-- End Virtual Feats -->
+		<!-- Hidden feats (all feats less the virtual, automatic and visible ones) -->
+<!-- Hidden VFEATS -->
+<!-- END Hidden VFEATS -->
+	</feats>
+	<!--
+	  ====================================
+	  ====================================
+			ARCHETYPES
+	  ====================================
+	  ====================================-->
+	<archetypes>
+	</archetypes>
+	<!--
+	  ====================================
+	  ====================================
+			SPECIAL QUALITIES
+	  ====================================
+	  ====================================-->
+	<special_qualities>
+	<!-- Standard Special Qualities -->
+		<special_quality>
+			<name>Bonus Feats</name>
+			<description>At 1st level, a fighter gets a bonus combat-oriented feat in addition to the feat that any 1st-level character gets and the bonus feat granted to a human character. The fighter gains an additional bonus feat at 2nd level and every two fighter levels thereafter (4th, 6th, 8th, 10th, 12th, 14th, 16th, 18th, and 20th). These bonus feats must be drawn from the feats noted as fighter bonus feats. A fighter must still meet all prerequisites for a bonus feat, including ability score and base attack bonus minimums. These bonus feats are in addition to the feat that a character of any class gets from advancing levels. A fighter is not limited to the list of fighter bonus feats when choosing these feats.</description>
+			<type>CLASSFEATURES.FIGHTERCLASSFEATURES.SPECIALQUALITY</type>
+			<associated></associated>
+			<count>0</count>
+			<auto>F</auto>
+			<hidden>F</hidden>
+			<virtual>F</virtual>
+			<category>Special Ability</category>
+			<source>RSRD, classesI</source>
+		</special_quality>
+		<special_quality>
+			<name>Weapon and Armor Proficiency</name>
+			<description>A fighter is proficient with all simple and martial weapons and with all armor (heavy, medium, and light) and shields (including tower shields).</description>
+			<type>CLASSFEATURES.FIGHTERCLASSFEATURES.SPECIALQUALITY</type>
+			<associated></associated>
+			<count>0</count>
+			<auto>F</auto>
+			<hidden>F</hidden>
+			<virtual>F</virtual>
+			<category>Special Ability</category>
+			<source>RSRD, classesI</source>
+		</special_quality>
+		<special_quality>
+			<name>Bonus Languages</name>
+			<description>A wizard may substitute Draconic for one of the bonus languages available to the character because of her race.</description>
+			<type>CLASSFEATURES.WIZARDCLASSFEATURES.SPECIALQUALITY</type>
+			<associated></associated>
+			<count>0</count>
+			<auto>F</auto>
+			<hidden>F</hidden>
+			<virtual>F</virtual>
+			<category>Special Ability</category>
+			<source>RSRD, classesII</source>
+		</special_quality>
+		<special_quality>
+			<name>Familiar</name>
+			<description>A wizard can obtain a familiar in exactly the same manner as a sorcerer can. See the sorcerer description and the information on Familiars below for details.</description>
+			<type>CLASSFEATURES.WIZARDCLASSFEATURES.SPECIALQUALITY</type>
+			<associated></associated>
+			<count>0</count>
+			<auto>F</auto>
+			<hidden>F</hidden>
+			<virtual>F</virtual>
+			<category>Special Ability</category>
+			<source>RSRD, classesII</source>
+		</special_quality>
+		<special_quality>
+			<name>Scribe Scroll</name>
+			<description>At 1st level, a wizard gains Scribe Scroll as a bonus feat.</description>
+			<type>CLASSFEATURES.WIZARDCLASSFEATURES.SPECIALQUALITY</type>
+			<associated></associated>
+			<count>0</count>
+			<auto>F</auto>
+			<hidden>F</hidden>
+			<virtual>F</virtual>
+			<category>Special Ability</category>
+			<source>RSRD, classesII</source>
+		</special_quality>
+		<special_quality>
+			<name>Spellbooks</name>
+			<description>A wizard must study her spellbook each day to prepare her spells. She cannot prepare any spell not recorded in her spellbook, except for read magic, which all wizards can prepare from memory. A wizard begins play with a spellbook containing all 0-level wizard spells (except those from her prohibited school or schools, if any; see School Specialization, below) plus three 1st-level spells of your choice. For each point of Intelligence bonus the wizard has, the spellbook holds one additional 1st-level spell of your choice. At each new wizard level, she gains two new spells of any spell level or levels that she can cast (based on her new wizard level) for her spellbook. At any time, a wizard can also add spells found in other wizards&#39; spellbooks to her own.</description>
+			<type>CLASSFEATURES.WIZARDCLASSFEATURES.SPECIALQUALITY</type>
+			<associated></associated>
+			<count>0</count>
+			<auto>F</auto>
+			<hidden>F</hidden>
+			<virtual>F</virtual>
+			<category>Special Ability</category>
+			<source>RSRD, classesII</source>
+		</special_quality>
+		<special_quality>
+			<name>Spells</name>
+			<description>A wizard casts arcane spells which are drawn from the sorcerer/ wizard spell list. A wizard must choose and prepare her spells ahead of time (see below). To learn, prepare, or cast a spell, the wizard must have an Intelligence score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a wizard&#39;s spell is 10 + the spell level + the wizard&#39;s Intelligence modifier. Like other spellcasters, a wizard can cast only a certain number of spells of each spell level per day. Her base daily spell allotment is given on Table: The Wizard. In addition, she receives bonus spells per day if she has a high Intelligence score. Unlike a bard or sorcerer, a wizard may know any number of spells. She must choose and prepare her spells ahead of time by getting a good night&#39;s sleep and spending 1 hour studying her spellbook. While studying, the wizard decides which spells to prepare.</description>
+			<type>CLASSFEATURES.WIZARDCLASSFEATURES.SPECIALQUALITY</type>
+			<associated></associated>
+			<count>0</count>
+			<auto>F</auto>
+			<hidden>F</hidden>
+			<virtual>F</virtual>
+			<category>Special Ability</category>
+			<source>RSRD, classesII</source>
+		</special_quality>
+		<special_quality>
+			<name>Weapon and Armor Proficiency</name>
+			<description>Wizards are proficient with the club, dagger, heavy crossbow, light crossbow, and quarterstaff, but not with any type of armor or shield. Armor of any type interferes with a wizard&#39;s movements, which can cause her spells with somatic components to fail.</description>
+			<type>CLASSFEATURES.WIZARDCLASSFEATURES.SPECIALQUALITY</type>
+			<associated></associated>
+			<count>0</count>
+			<auto>F</auto>
+			<hidden>F</hidden>
+			<virtual>F</virtual>
+			<category>Special Ability</category>
+			<source>RSRD, classesII</source>
+		</special_quality>
+		<special_quality>
+			<name>Darkvision (Ex)</name>
+			<description>Range 120; Darkvision is the extraordinary ability to see with no light source at all, out to a range specified for the creature. Darkvision is black and white only (colors cannot be discerned). It does not allow characters to see anything that they could not see otherwise-invisible objects are still invisible, and illusions are still visible as what they seem to be. Likewise, darkvision subjects a creature to gaze attacks normally. The presence of light does not spoil darkvision.</description>
+			<type>SPECIALQUALITY.EXTRAORDINARY.VISION</type>
+			<associated></associated>
+			<count>0</count>
+			<auto>F</auto>
+			<hidden>F</hidden>
+			<virtual>F</virtual>
+			<category>Special Ability</category>
+			<source>RSRD</source>
+		</special_quality>
+		<special_quality>
+			<name>Feat Bonus</name>
+			<description>1 extra feat at 1st level.</description>
+			<type>SPECIALQUALITY.RACETRAIT.HUMANRACETRAIT</type>
+			<associated></associated>
+			<count>0</count>
+			<auto>F</auto>
+			<hidden>F</hidden>
+			<virtual>F</virtual>
+			<category>Special Ability</category>
+			<source>RSRD</source>
+		</special_quality>
+		<special_quality>
+			<name>Human Racial Traits (Ex)</name>
+			<description>4 extra skill points at 1st level and 1 extra skill point at each additional level. 1 extra feat at 1st level.</description>
+			<type>SPECIALQUALITY.EXTRAORDINARY</type>
+			<associated></associated>
+			<count>0</count>
+			<auto>F</auto>
+			<hidden>F</hidden>
+			<virtual>F</virtual>
+			<category>Special Ability</category>
+			<source>RSRD</source>
+		</special_quality>
+		<special_quality>
+			<name>See Etheral</name>
+			<description>Range 120</description>
+			<type>SPECIALQUALITY.VISION</type>
+			<associated></associated>
+			<count>0</count>
+			<auto>F</auto>
+			<hidden>F</hidden>
+			<virtual>F</virtual>
+			<category>Special Ability</category>
+			<source>RSRD</source>
+		</special_quality>
+		<special_quality>
+			<name>See Invisibility</name>
+			<description>Range 120</description>
+			<type>SPECIALQUALITY.VISION</type>
+			<associated></associated>
+			<count>0</count>
+			<auto>F</auto>
+			<hidden>F</hidden>
+			<virtual>F</virtual>
+			<category>Special Ability</category>
+			<source>RSRD</source>
+		</special_quality>
+		<special_quality>
+			<name>Skill Bonus</name>
+			<description>4 extra skill points at 1st level and 1 extra skill point at each additional level.</description>
+			<type>SPECIALQUALITY.RACETRAIT.HUMANRACETRAIT</type>
+			<associated></associated>
+			<count>0</count>
+			<auto>F</auto>
+			<hidden>F</hidden>
+			<virtual>F</virtual>
+			<category>Special Ability</category>
+			<source>RSRD</source>
+		</special_quality>
+	</special_qualities>
+	<!--
+	  ====================================
+	  ====================================
+			SPECIAL ATTACKS
+	  ====================================
+	  ====================================-->
+	<special_attacks>
+	</special_attacks>
+		<!--
+	  ====================================
+	  ====================================
+			Animal Trick
+	  ====================================
+	  ====================================-->
+	<animal_tricks>
+	</animal_tricks>
+	<!--
+	  ====================================
+	  ====================================
+			TALENTS
+	  ====================================
+	  ====================================-->
+	<talents>
+	</talents>
+<!--
+	  ====================================
+	  ====================================
+			Intelligent Item
+	  ====================================
+	  ====================================-->
+	<intelligent_items>
+	</intelligent_items>
+	<!--
+	  ====================================
+	  ====================================
+			SALIENT DIVINE ABILITIES
+	  ====================================
+	  ====================================-->
+<salient_divine_abilities>
+	</salient_divine_abilities>
+	<!--
+	  ====================================
+	  ====================================
+			Occupations
+	  ====================================
+	  ====================================-->
+	<occupations>
+	</occupations>
+<!-- Eclipse Section -->
+		<!--
+	  ====================================
+	  ====================================
+			Eclipse Recurring Bonuses
+	  ====================================
+	  ====================================-->
+	<charcreations>
+	</charcreations>
+		<!--
+	  ====================================
+	  ====================================
+			DISADVANTAGES
+	  ====================================
+	  ====================================-->
+	<disadvantages>
+	</disadvantages>
+	<!--
+	  ====================================
+	  ====================================
+			Eclipse Abilities
+	  ====================================
+	  ====================================-->
+	<eclipse_abilities>
+	</eclipse_abilities>
+	<!--
+	  ====================================
+	  ====================================
+			Spell Caster Output
+	  ====================================
+	  ====================================-->
+	<spellcasteroutputs>
+	</spellcasteroutputs>
+	<!--
+	  ====================================
+	  ====================================
+			Martial Arts
+	  ====================================
+	  ====================================-->
+	<martial_arts>
+	</martial_arts>
+	<!--
+	  ====================================
+	  ====================================
+			Mystic Artist
+	  ====================================
+	  ====================================-->
+	<mystic_artists>
+	</mystic_artists>
+	<!--
+	  ====================================
+	  ====================================
+			Witchcraft Abilities
+	  ====================================
+	  ====================================-->
+	<witchcrafts>
+	</witchcrafts>
+	<!--
+	  ====================================
+	  ====================================
+			The Path of the Dragon
+	  ====================================
+	  ====================================-->
+	<path_dragons>
+	</path_dragons>
+		<!--
+	  ====================================
+	  ====================================
+			Dominion and Advanced Dominion
+	  ====================================
+	  ====================================-->
+	<dominions>
+	</dominions>
+	<!--
+	  ====================================
+	  ====================================
+			Channeling
+	  ====================================
+	  ====================================-->
+	<channelings>
+	</channelings>
+<!-- END ECLIPSE SECION -->
+	<!--
+	  ====================================
+	  ====================================
+			POWERS - CLASSFEATURES
+	  ====================================
+	  ====================================-->
+	<powers_classfeatures>
+	</powers_classfeatures>
+	<!--
+	  ====================================
+	  ====================================
+			POWERS - FEATPOWERS
+	  ====================================
+	  ====================================-->
+	<powers_featpowers>
+	</powers_featpowers>
+	<!--
+	  ====================================
+	  ====================================
+			4e Powers - At-Will
+	  ====================================
+	  ====================================-->
+	<powers_atwills>
+	</powers_atwills>
+	<!--
+	  ====================================
+	  ====================================
+			4e Powers - Encounter
+	  ====================================
+	  ====================================-->
+	<powers_encounters>
+	</powers_encounters>
+	<!--
+	  ====================================
+	  ====================================
+			4e Powers - Daily
+	  ====================================
+	  ====================================-->
+	<powers_dailies>
+	</powers_dailies>
+	<!--
+	  ====================================
+	  ====================================
+			4e Powers - Utility
+	  ====================================
+	  ====================================-->
+	<powers_utilities>
+	</powers_utilities>
+	<!--
+	  ====================================
+	  ====================================
+			Demon Cant
+	  ====================================
+	  ====================================-->
+	<demon_cants>
+	</demon_cants>
+	<!--
+	  ====================================
+	  ====================================
+			Mage Gnosis
+	  ====================================
+	  ====================================-->
+	<mage_gnosises>
+	</mage_gnosises>
+	<!--
+	  ====================================
+	  ====================================
+			Vampire Disciplines
+	  ====================================
+	  ====================================-->
+	<vampire_disciplines>
+	</vampire_disciplines>
+	<!--
+	  ====================================
+	  ====================================
+			Werewolf Rites
+	  ====================================
+	  ====================================-->
+	<werewolf_rites>
+	</werewolf_rites>
+	<!--
+	  ====================================
+	  ====================================
+			Force Powers
+	  ====================================
+	  ====================================-->
+	<force_powers>
+	</force_powers>
+	<!--
+	  ====================================
+	  ====================================
+			Force Techniques
+	  ====================================
+	  ====================================-->
+	<force_techniques>
+	</force_techniques>
+	<!--
+	  ====================================
+	  ====================================
+			Force Secrets
+	  ====================================
+	  ====================================-->
+	<force_secrets>
+	</force_secrets>
+<!--
+	====================================
+	====================================
+			MUTATIONS
+	====================================
+	====================================	-->
+	<mutations>
+	</mutations>
+	<!--
+	  ====================================
+	  ====================================
+			TRAITS
+	  ====================================
+	  ====================================-->
+	<traits>
+	</traits>
+	<!--
+	  ====================================
+	  ====================================
+			Afflictions
+	  ====================================
+	  ====================================-->
+	<afflictions>
+	</afflictions>
+	<!--
+	  ====================================
+	  ====================================
+			MISCELLANEOUS
+	  ====================================
+	  ====================================-->
+	<!-- Domains -->
+	<weapon_proficiencies>Axe (Throwing), Battleaxe, Boulder, Club, Crossbow (Heavy), Crossbow (Light), Dagger, Dagger (Punching), Dart, Falchion, Flail, Flail (Heavy), Gauntlet, Gauntlet (Spiked), Glaive, Grapple, Greataxe, Greatclub, Greatsword, Guisarme, Halberd, Hammer (Light), Handaxe, Javelin, Kukri, Lance, Longbow, Longspear, Longsword, Mace (Heavy), Mace (Light), Morningstar, Pick (Heavy), Pick (Light), Quarterstaff, Ranseur, Rapier, Sap, Scimitar, Scythe, Shieldbash (Heavy), Shieldbash (Light), Shortbow, Shortspear, Sickle, Sling, Spear, Spells (Ray), Spells (Touch), Spiked Armor, Sword (Bastard), Sword (Short), Trident, Unarmed Strike, Waraxe (Dwarven), Warhammer</weapon_proficiencies>
+	<languages>Common</languages>
+
+	<templates>
+		<list>Base Race Type, Base Race Type ~ Humanoid</list>
+		<template>
+			<name>Base Race Type</name>
+			<strmod>0</strmod>
+			<dexmod>0</dexmod>
+			<conmod>0</conmod>
+			<intmod>0</intmod>
+			<wismod>0</wismod>
+			<chamod>0</chamod>
+			<cr>0</cr>
+			<dr></dr>
+			<feat></feat>
+			<sa></sa>
+			<sr>0</sr>
+			<bonuslist></bonuslist>
+		</template>
+		<template>
+			<name>Base Race Type ~ Humanoid</name>
+			<strmod>0</strmod>
+			<dexmod>0</dexmod>
+			<conmod>0</conmod>
+			<intmod>0</intmod>
+			<wismod>0</wismod>
+			<chamod>0</chamod>
+			<cr>0</cr>
+			<dr></dr>
+			<feat></feat>
+			<sa></sa>
+			<sr>0</sr>
+			<bonuslist></bonuslist>
+		</template>
+	</templates>
+
+
+	<misc>
+
+
+
+	</misc>
+	<!--
+	  ====================================
+	  ====================================
+			COMPANIONS
+	  ====================================
+	  ====================================-->
+	<companions>
+
+
+
+
+	</companions>
+	<!--
+	  ====================================
+	  ====================================
+			SPELLS
+	  ====================================
+	  ====================================-->
+	<spells>
+		<!-- ### BEGIN Innate spells ### -->
+	<spells_innate>
+
+		<class_innate>
+
+			<spellbook number="2" name="Magic Item">
+				<spell>
+						<name>Blink</name>
+						<outputname>Blink</outputname>
+						<times_memorized>At Will</times_memorized>
+						<range>Personal</range>
+						<components>V, S</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>7</casterlevel>
+						<concentration></concentration>
+						<dc></dc>
+						<duration>7 rounds [D]</duration>
+						<effect>You &quot;blink&quot; back and forth between the Material Plane and the Ethereal Plane. You look as though you&#39;re winking in and out of reality very quickly and at random. Blinking has several effects, as follows. Physical attacks against you have a 50% miss chance, and the Blind-Fight feat doesn&#39;t help opponents, since you&#39;re ethereal and not merely invisible. If the attack is capable of striking ethereal creatures, the miss chance is only 20% [for concealment]. If the attacker can see invisible creatures, the miss chance is also only 20%. [For an attacker who can both see and strike ethereal creatures, there is no miss chance.] Likewise, your own attacks have a 20% miss chance, since you sometimes go ethereal just as you are about to strike. Any individually targeted spell has a 50% chance to fail against you while you&#39;re blinking unless your attacker can target invisible, ethereal creatures. Your own spells have a 20% chance to activate just as you go ethereal, in which case they typically do not affect the Material Plane. While blinking, you take only half damage from area attacks [but full damage from those that extend onto the Ethereal Plane]. You strike as an invisible creature [with a +2 bonus on attack rolls], denying your target any Dexterity bonus to AC. You take only half damage from falling, since you fall only while you are material. While blinking, you can step through [but not see through] solid objects. For each 5 feet of solid material you walk through, there is a 50% chance that you become material. If this occurs, you are shunted off to the nearest open space and take 1d6 points of damage per 5 feet so traveled. You can move at only three-quarters speed [because movement on the Ethereal Plane is at half speed, and you spend about half your time there and half your time material.] Since you spend about half your time on the Ethereal Plane, you can see and even attack ethereal creatures. You interact with ethereal creatures roughly the same way you interact with material ones. An ethereal creature is invisible, incorporeal, and capable of moving in any direction, even up or down. As an incorporeal creature, you can move through solid objects, including living creatures. An ethereal creature can see and hear the Material Plane, but everything looks gray and insubstantial. Sight and hearing on the Material Plane are limited to 60 feet. Force effects and abjurations affect you normally. Their effects extend onto the Ethereal Plane from the Material Plane, but not vice versa. An ethereal creature can&#39;t attack material creatures, and spells you cast while ethereal affect only other ethereal things. Certain material creatures or objects have attacks or effects that work on the Ethereal Plane. Treat other ethereal creatures and objects as material.</effect>
+						<target>You</target>
+						<saveinfo>None</saveinfo>
+						<school>
+							<school>Transmutation</school>
+							<subschool></subschool>
+							<descriptor></descriptor>
+							<fullschool>Transmutation</fullschool>
+						</school>
+						<source>
+							<sourcelevel>Wiz3</sourcelevel>
+							<source>RSRD, SpellsA-B</source>
+							<sourcepage>SpellsA-B</sourcepage>
+							<sourceshort>RSRD</sourceshort>
+						</source>
+						<spell_resistance>No</spell_resistance>
+						<description>You &quot;blink&quot; back and forth between the Material Plane and the Ethereal Plane. You look as though you&#39;re winking in and out of reality very quickly and at random. Blinking has several effects, as follows. Physical attacks against you have a 50% miss chance, and the Blind-Fight feat doesn&#39;t help opponents, since you&#39;re ethereal and not merely invisible. If the attack is capable of striking ethereal creatures, the miss chance is only 20% [for concealment]. If the attacker can see invisible creatures, the miss chance is also only 20%. [For an attacker who can both see and strike ethereal creatures, there is no miss chance.] Likewise, your own attacks have a 20% miss chance, since you sometimes go ethereal just as you are about to strike. Any individually targeted spell has a 50% chance to fail against you while you&#39;re blinking unless your attacker can target invisible, ethereal creatures. Your own spells have a 20% chance to activate just as you go ethereal, in which case they typically do not affect the Material Plane. While blinking, you take only half damage from area attacks [but full damage from those that extend onto the Ethereal Plane]. You strike as an invisible creature [with a +2 bonus on attack rolls], denying your target any Dexterity bonus to AC. You take only half damage from falling, since you fall only while you are material. While blinking, you can step through [but not see through] solid objects. For each 5 feet of solid material you walk through, there is a 50% chance that you become material. If this occurs, you are shunted off to the nearest open space and take 1d6 points of damage per 5 feet so traveled. You can move at only three-quarters speed [because movement on the Ethereal Plane is at half speed, and you spend about half your time there and half your time material.] Since you spend about half your time on the Ethereal Plane, you can see and even attack ethereal creatures. You interact with ethereal creatures roughly the same way you interact with material ones. An ethereal creature is invisible, incorporeal, and capable of moving in any direction, even up or down. As an incorporeal creature, you can move through solid objects, including living creatures. An ethereal creature can see and hear the Material Plane, but everything looks gray and insubstantial. Sight and hearing on the Material Plane are limited to 60 feet. Force effects and abjurations affect you normally. Their effects extend onto the Ethereal Plane from the Material Plane, but not vice versa. An ethereal creature can&#39;t attack material creatures, and spells you cast while ethereal affect only other ethereal things. Certain material creatures or objects have attacks or effects that work on the Ethereal Plane. Treat other ethereal creatures and objects as material.</description>
+						<bonusspell></bonusspell>
+					</spell>
+			</spellbook>
+
+		</class_innate>
+		</spells_innate>
+<!-- ### END Innate spells ### -->
+		<!-- ### BEGIN Known spells ### -->
+		<known_spells>
+
+	<class number="1" spelllistclass="Wizard" spellcasterlevel="2" spellcastertype="Arcane" memorize="true" concentration="">
+			<level number="0" known="0" cast="4">
+				<spell>
+						<name>Acid Splash</name>
+						<outputname>Acid Splash</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Close (30 ft.)</range>
+						<components>V, S</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>2</casterlevel>
+						<concentration></concentration>
+						<dc></dc>
+						<duration>Instantaneous</duration>
+						<effect>You fire a small orb of acid at the target. You must succeed on a ranged touch attack to hit your target. The orb deals 1d3 points of acid damage.</effect>
+						<target>One missile of acid</target>
+						<saveinfo>None</saveinfo>
+						<school>
+							<school>Conjuration</school>
+							<subschool>Creation</subschool>
+							<descriptor>Acid</descriptor>
+							<fullschool>Conjuration (Creation) [Acid]</fullschool>
+						</school>
+						<source>
+							<sourcelevel>Wiz0</sourcelevel>
+							<source>RSRD, SpellsA-B</source>
+							<sourcepage>SpellsA-B</sourcepage>
+							<sourceshort>RSRD</sourceshort>
+						</source>
+						<spell_resistance>No</spell_resistance>
+						<description>You fire a small orb of acid at the target. You must succeed on a ranged touch attack to hit your target. The orb deals 1d3 points of acid damage.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Arcane Mark</name>
+						<outputname>Arcane Mark</outputname>
+						<times_memorized>1</times_memorized>
+						<range>0 ft.</range>
+						<components>V, S</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>2</casterlevel>
+						<concentration></concentration>
+						<dc></dc>
+						<duration>Permanent</duration>
+						<effect>This spell allows you to inscribe your personal rune or mark, which can consist of no more than six characters. The writing can be visible or invisible. An arcane mark spell enables you to etch the rune upon any substance without harm to the material upon which it is placed. If an invisible mark is made, a detect magic spell causes it to glow and be visible, though not necessarily understandable. See invisibility, true seeing, a gem of seeing, or a robe of eyes likewise allows the user to see an invisible arcane mark. A read magic spell reveals the words, if any. The mark cannot be dispelled, but it can be removed by the caster or by an erase spell. If an arcane mark is placed on a living being, normal wear gradually causes the effect to fade in about a month. Arcane mark must be cast on an object prior to casting instant summons on the same object [see that spell description for details].</effect>
+						<target>One personal rune or mark, all of which must fit within 1 sq. ft.</target>
+						<saveinfo>None</saveinfo>
+						<school>
+							<school>Universal</school>
+							<subschool></subschool>
+							<descriptor></descriptor>
+							<fullschool>Universal</fullschool>
+						</school>
+						<source>
+							<sourcelevel>Wiz0</sourcelevel>
+							<source>RSRD, SpellsA-B</source>
+							<sourcepage>SpellsA-B</sourcepage>
+							<sourceshort>RSRD</sourceshort>
+						</source>
+						<spell_resistance>No</spell_resistance>
+						<description>This spell allows you to inscribe your personal rune or mark, which can consist of no more than six characters. The writing can be visible or invisible. An arcane mark spell enables you to etch the rune upon any substance without harm to the material upon which it is placed. If an invisible mark is made, a detect magic spell causes it to glow and be visible, though not necessarily understandable. See invisibility, true seeing, a gem of seeing, or a robe of eyes likewise allows the user to see an invisible arcane mark. A read magic spell reveals the words, if any. The mark cannot be dispelled, but it can be removed by the caster or by an erase spell. If an arcane mark is placed on a living being, normal wear gradually causes the effect to fade in about a month. Arcane mark must be cast on an object prior to casting instant summons on the same object [see that spell description for details].</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Dancing Lights</name>
+						<outputname>Dancing Lights</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Medium (120 ft.)</range>
+						<components>V, S</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>2</casterlevel>
+						<concentration></concentration>
+						<dc></dc>
+						<duration>1 minute [D]</duration>
+						<effect>Depending on the version selected, you create up to four lights that resemble lanterns or torches [and cast that amount of light], or up to four glowing spheres of light [which look like will-o&#39;-wisps], or one faintly glowing, vaguely humanoid shape. The dancing lights must stay within a 10-foot-radius area in relation to each other but otherwise move as you desire [no concentration required]: forward or back, up or down, straight or turning corners, or the like. The lights can move up to 100 feet per round. A light winks out if the distance between you and it exceeds the spell&#39;s range. Dancing lights can be made permanent with a permanency spell.</effect>
+						<target>Up to four lights, all within a 10-ft.-radius area</target>
+						<saveinfo>None</saveinfo>
+						<school>
+							<school>Evocation</school>
+							<subschool></subschool>
+							<descriptor>Light</descriptor>
+							<fullschool>Evocation [Light]</fullschool>
+						</school>
+						<source>
+							<sourcelevel>Wiz0</sourcelevel>
+							<source>RSRD, SpellsD-E</source>
+							<sourcepage>SpellsD-E</sourcepage>
+							<sourceshort>RSRD</sourceshort>
+						</source>
+						<spell_resistance>No</spell_resistance>
+						<description>Depending on the version selected, you create up to four lights that resemble lanterns or torches [and cast that amount of light], or up to four glowing spheres of light [which look like will-o&#39;-wisps], or one faintly glowing, vaguely humanoid shape. The dancing lights must stay within a 10-foot-radius area in relation to each other but otherwise move as you desire [no concentration required]: forward or back, up or down, straight or turning corners, or the like. The lights can move up to 100 feet per round. A light winks out if the distance between you and it exceeds the spell&#39;s range. Dancing lights can be made permanent with a permanency spell.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Daze</name>
+						<outputname>Daze</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Close (30 ft.)</range>
+						<components>V, S, M</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>2</casterlevel>
+						<concentration></concentration>
+						<dc>16</dc>
+						<duration>1 round</duration>
+						<effect>This enchantment clouds the mind of a humanoid creature with 4 or fewer Hit Dice so that it takes no actions. Humanoids of 5 or more HD are not affected. A dazed subject is not stunned, so attackers get no special advantage against it. Material Component: A pinch of wool or similar substance.</effect>
+						<target>One humanoid creature of 4 HD or less</target>
+						<saveinfo>Will negates</saveinfo>
+						<school>
+							<school>Enchantment</school>
+							<subschool>Compulsion</subschool>
+							<descriptor>Mind-Affecting</descriptor>
+							<fullschool>Enchantment (Compulsion) [Mind-Affecting]</fullschool>
+						</school>
+						<source>
+							<sourcelevel>Wiz0</sourcelevel>
+							<source>RSRD, SpellsD-E</source>
+							<sourcepage>SpellsD-E</sourcepage>
+							<sourceshort>RSRD</sourceshort>
+						</source>
+						<spell_resistance>Yes</spell_resistance>
+						<description>This enchantment clouds the mind of a humanoid creature with 4 or fewer Hit Dice so that it takes no actions. Humanoids of 5 or more HD are not affected. A dazed subject is not stunned, so attackers get no special advantage against it. Material Component: A pinch of wool or similar substance.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Detect Magic</name>
+						<outputname>Detect Magic</outputname>
+						<times_memorized>1</times_memorized>
+						<range>60 ft.</range>
+						<components>V, S</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>2</casterlevel>
+						<concentration></concentration>
+						<dc></dc>
+						<duration>Concentration, up to 2 minutes [D]</duration>
+						<effect><para>You detect magical auras. The amount of information revealed depends on how long you study a particular area or subject. </para><para>1st Round: Presence or absence of magical auras. </para><para>2nd Round: Number of different magical auras and the power of the most potent aura. </para><para>3rd Round: The strength and location of each aura. If the items or creatures bearing the auras are in line of sight, you can make Spellcraft skill checks to determine the school of magic involved in each. [Make one check per aura; DC 15 + spell level, or 15 + half caster level for a nonspell effect.] </para><para>Magical areas, multiple types of magic, or strong local magical emanations may distort or conceal weaker auras. </para><para>Aura Strength: An aura&#39;s power depends on a spell&#39;s functioning spell level or an item&#39;s caster level. If an aura falls into more than one category, detect magic indicates the stronger of the two. </para><para>  |--------- Aura Power --------- </para><para>Spell or Object |Faint |Moderate |Strong |Overwhelming </para><para>Functioning spell [spell level] |3rd or lower |4th-6th |7th-9th |10th+ [deity-level] </para><para>Magic item [caster level] |5th or lower |6th-11th |12th-20th |21st+ [artifact] </para><para>Lingering Aura: A magical aura lingers after its original source dissipates [in the case of a spell] or is destroyed [in the case of a magic item]. If detect magic is cast and directed at such a location, the spell indicates an aura strength of dim [even weaker than a faint aura]. How long the aura lingers at this dim level depends on its original power: </para><para>Original Strength |Duration of Lingering Aura </para><para>Faint |1d6 rounds </para><para>Moderate |1d6 minutes </para><para>Strong |1d6x10 minutes </para><para>Overwhelming |1d6 days </para><para>Outsiders and elementals are not magical in themselves, but if they are summoned, the conjuration spell registers. </para><para>Each round, you can turn to detect magic in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it. </para><para>Detect magic can be made permanent with a permanency spell.</para></effect>
+						<target>Cone-shaped emanation</target>
+						<saveinfo>None</saveinfo>
+						<school>
+							<school>Divination</school>
+							<subschool></subschool>
+							<descriptor></descriptor>
+							<fullschool>Divination</fullschool>
+						</school>
+						<source>
+							<sourcelevel>Wiz0</sourcelevel>
+							<source>RSRD, SpellsD-E</source>
+							<sourcepage>SpellsD-E</sourcepage>
+							<sourceshort>RSRD</sourceshort>
+						</source>
+						<spell_resistance>No</spell_resistance>
+						<description><para>You detect magical auras. The amount of information revealed depends on how long you study a particular area or subject. </para><para>1st Round: Presence or absence of magical auras. </para><para>2nd Round: Number of different magical auras and the power of the most potent aura. </para><para>3rd Round: The strength and location of each aura. If the items or creatures bearing the auras are in line of sight, you can make Spellcraft skill checks to determine the school of magic involved in each. [Make one check per aura; DC 15 + spell level, or 15 + half caster level for a nonspell effect.] </para><para>Magical areas, multiple types of magic, or strong local magical emanations may distort or conceal weaker auras. </para><para>Aura Strength: An aura&#39;s power depends on a spell&#39;s functioning spell level or an item&#39;s caster level. If an aura falls into more than one category, detect magic indicates the stronger of the two. </para><para>  |--------- Aura Power --------- </para><para>Spell or Object |Faint |Moderate |Strong |Overwhelming </para><para>Functioning spell [spell level] |3rd or lower |4th-6th |7th-9th |10th+ [deity-level] </para><para>Magic item [caster level] |5th or lower |6th-11th |12th-20th |21st+ [artifact] </para><para>Lingering Aura: A magical aura lingers after its original source dissipates [in the case of a spell] or is destroyed [in the case of a magic item]. If detect magic is cast and directed at such a location, the spell indicates an aura strength of dim [even weaker than a faint aura]. How long the aura lingers at this dim level depends on its original power: </para><para>Original Strength |Duration of Lingering Aura </para><para>Faint |1d6 rounds </para><para>Moderate |1d6 minutes </para><para>Strong |1d6x10 minutes </para><para>Overwhelming |1d6 days </para><para>Outsiders and elementals are not magical in themselves, but if they are summoned, the conjuration spell registers. </para><para>Each round, you can turn to detect magic in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it. </para><para>Detect magic can be made permanent with a permanency spell.</para></description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Detect Poison</name>
+						<outputname>Detect Poison</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Close (30 ft.)</range>
+						<components>V, S</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>2</casterlevel>
+						<concentration></concentration>
+						<dc></dc>
+						<duration>Instantaneous</duration>
+						<effect>You determine whether a creature, object, or area has been poisoned or is poisonous. You can determine the exact type of poison with a DC 20 Wisdom check. A character with the Craft [alchemy] skill may try a DC 20 Craft [alchemy] check if the Wisdom check fails, or may try the Craft [alchemy] check prior to the Wisdom check. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.</effect>
+						<target>One creature, one object, or a 5-ft. cube</target>
+						<saveinfo>None</saveinfo>
+						<school>
+							<school>Divination</school>
+							<subschool></subschool>
+							<descriptor></descriptor>
+							<fullschool>Divination</fullschool>
+						</school>
+						<source>
+							<sourcelevel>Wiz0</sourcelevel>
+							<source>RSRD, SpellsD-E</source>
+							<sourcepage>SpellsD-E</sourcepage>
+							<sourceshort>RSRD</sourceshort>
+						</source>
+						<spell_resistance>No</spell_resistance>
+						<description>You determine whether a creature, object, or area has been poisoned or is poisonous. You can determine the exact type of poison with a DC 20 Wisdom check. A character with the Craft [alchemy] skill may try a DC 20 Craft [alchemy] check if the Wisdom check fails, or may try the Craft [alchemy] check prior to the Wisdom check. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Disrupt Undead</name>
+						<outputname>Disrupt Undead</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Close (30 ft.)</range>
+						<components>V, S</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>2</casterlevel>
+						<concentration></concentration>
+						<dc></dc>
+						<duration>Instantaneous</duration>
+						<effect>You direct a ray of positive energy. You must make a ranged touch attack to hit, and if the ray hits an undead creature, it deals 1d6 points of damage to it.</effect>
+						<target>Ray</target>
+						<saveinfo>None</saveinfo>
+						<school>
+							<school>Necromancy</school>
+							<subschool></subschool>
+							<descriptor></descriptor>
+							<fullschool>Necromancy</fullschool>
+						</school>
+						<source>
+							<sourcelevel>Wiz0</sourcelevel>
+							<source>RSRD, SpellsD-E</source>
+							<sourcepage>SpellsD-E</sourcepage>
+							<sourceshort>RSRD</sourceshort>
+						</source>
+						<spell_resistance>Yes</spell_resistance>
+						<description>You direct a ray of positive energy. You must make a ranged touch attack to hit, and if the ray hits an undead creature, it deals 1d6 points of damage to it.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Flare</name>
+						<outputname>Flare</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Close (30 ft.)</range>
+						<components>V</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>2</casterlevel>
+						<concentration></concentration>
+						<dc>16</dc>
+						<duration>Instantaneous</duration>
+						<effect>This cantrip creates a burst of light. If you cause the light to burst directly in front of a single creature, that creature is dazzled for 1 minute unless it makes a successful Fortitude save. Sightless creatures, as well as creatures already dazzled, are not affected by flare.</effect>
+						<target>Burst of light</target>
+						<saveinfo>Fortitude negates</saveinfo>
+						<school>
+							<school>Evocation</school>
+							<subschool></subschool>
+							<descriptor>Light</descriptor>
+							<fullschool>Evocation [Light]</fullschool>
+						</school>
+						<source>
+							<sourcelevel>Wiz0</sourcelevel>
+							<source>RSRD, SpellsF-G</source>
+							<sourcepage>SpellsF-G</sourcepage>
+							<sourceshort>RSRD</sourceshort>
+						</source>
+						<spell_resistance>Yes</spell_resistance>
+						<description>This cantrip creates a burst of light. If you cause the light to burst directly in front of a single creature, that creature is dazzled for 1 minute unless it makes a successful Fortitude save. Sightless creatures, as well as creatures already dazzled, are not affected by flare.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Ghost Sound</name>
+						<outputname>Ghost Sound</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Close (30 ft.)</range>
+						<components>V, S, M</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>2</casterlevel>
+						<concentration></concentration>
+						<dc>16</dc>
+						<duration>2 rounds [D]</duration>
+						<effect>Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place. You choose what type of sound ghost sound creates when casting it and cannot thereafter change the sound&#39;s basic character. The volume of sound created depends on your level. You can produce as much noise as four normal humans per caster level [maximum twenty humans]. Thus, talking, singing, shouting, walking, marching, or running sounds can be created. The noise a ghost sound spell produces can be virtually any type of sound within the volume limit. A horde of rats running and squeaking is about the same volume as eight humans running and shouting. A roaring lion is equal to the noise from sixteen humans, while a roaring dire tiger is equal to the noise from twenty humans. Ghost sound can enhance the effectiveness of a silent image spell. Ghost sound can be made permanent with a permanency spell. Material Component: A bit of wool or a small lump of wax.</effect>
+						<target>Illusory sounds</target>
+						<saveinfo>Will disbelief (if interacted with)</saveinfo>
+						<school>
+							<school>Illusion</school>
+							<subschool>Figment</subschool>
+							<descriptor></descriptor>
+							<fullschool>Illusion (Figment)</fullschool>
+						</school>
+						<source>
+							<sourcelevel>Wiz0</sourcelevel>
+							<source>RSRD, SpellsF-G</source>
+							<sourcepage>SpellsF-G</sourcepage>
+							<sourceshort>RSRD</sourceshort>
+						</source>
+						<spell_resistance>No</spell_resistance>
+						<description>Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place. You choose what type of sound ghost sound creates when casting it and cannot thereafter change the sound&#39;s basic character. The volume of sound created depends on your level. You can produce as much noise as four normal humans per caster level [maximum twenty humans]. Thus, talking, singing, shouting, walking, marching, or running sounds can be created. The noise a ghost sound spell produces can be virtually any type of sound within the volume limit. A horde of rats running and squeaking is about the same volume as eight humans running and shouting. A roaring lion is equal to the noise from sixteen humans, while a roaring dire tiger is equal to the noise from twenty humans. Ghost sound can enhance the effectiveness of a silent image spell. Ghost sound can be made permanent with a permanency spell. Material Component: A bit of wool or a small lump of wax.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Light</name>
+						<outputname>Light</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Touch</range>
+						<components>V, M/DF</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>2</casterlevel>
+						<concentration></concentration>
+						<dc></dc>
+						<duration>20 minutes [D]</duration>
+						<effect>This spell causes an object to glow like a torch, shedding bright light in a 20-foot radius [and dim light for an additional 20 feet] from the point you touch. The effect is immobile, but it can be cast on a movable object. Light taken into an area of magical darkness does not function. A light spell [one with the light descriptor] counters and dispels a darkness spell [one with the darkness descriptor] of an equal or lower level. Arcane Material Component: A firefly or a piece of phosphorescent moss.</effect>
+						<target>Object touched</target>
+						<saveinfo>None</saveinfo>
+						<school>
+							<school>Evocation</school>
+							<subschool></subschool>
+							<descriptor>Light</descriptor>
+							<fullschool>Evocation [Light]</fullschool>
+						</school>
+						<source>
+							<sourcelevel>Wiz0</sourcelevel>
+							<source>RSRD, SpellsH-L</source>
+							<sourcepage>SpellsH-L</sourcepage>
+							<sourceshort>RSRD</sourceshort>
+						</source>
+						<spell_resistance>No</spell_resistance>
+						<description>This spell causes an object to glow like a torch, shedding bright light in a 20-foot radius [and dim light for an additional 20 feet] from the point you touch. The effect is immobile, but it can be cast on a movable object. Light taken into an area of magical darkness does not function. A light spell [one with the light descriptor] counters and dispels a darkness spell [one with the darkness descriptor] of an equal or lower level. Arcane Material Component: A firefly or a piece of phosphorescent moss.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Mage Hand</name>
+						<outputname>Mage Hand</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Close (30 ft.)</range>
+						<components>V, S</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>2</casterlevel>
+						<concentration></concentration>
+						<dc></dc>
+						<duration>Concentration</duration>
+						<effect>You point your finger at an object and can lift it and move it at will from a distance. As a move action, you can propel the object as far as 15 feet in any direction, though the spell ends if the distance between you and the object ever exceeds the spell&#39;s range.</effect>
+						<target>One nonmagical, unattended object weighing up to 5 lb.</target>
+						<saveinfo>None</saveinfo>
+						<school>
+							<school>Transmutation</school>
+							<subschool></subschool>
+							<descriptor></descriptor>
+							<fullschool>Transmutation</fullschool>
+						</school>
+						<source>
+							<sourcelevel>Wiz0</sourcelevel>
+							<source>RSRD, SpellsM-O</source>
+							<sourcepage>SpellsM-O</sourcepage>
+							<sourceshort>RSRD</sourceshort>
+						</source>
+						<spell_resistance>No</spell_resistance>
+						<description>You point your finger at an object and can lift it and move it at will from a distance. As a move action, you can propel the object as far as 15 feet in any direction, though the spell ends if the distance between you and the object ever exceeds the spell&#39;s range.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Mending</name>
+						<outputname>Mending</outputname>
+						<times_memorized>1</times_memorized>
+						<range>10 ft.</range>
+						<components>V, S</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>2</casterlevel>
+						<concentration></concentration>
+						<dc>16</dc>
+						<duration>Instantaneous</duration>
+						<effect>Mending repairs small breaks or tears in objects [but not warps, such as might be caused by a warp wood spell]. It will weld broken metallic objects such as a ring, a chain link, a medallion, or a slender dagger, providing but one break exists. Ceramic or wooden objects with multiple breaks can be invisibly rejoined to be as strong as new. A hole in a leather sack or a wineskin is completely healed over by mending. The spell can repair a magic item, but the item&#39;s magical abilities are not restored. The spell cannot mend broken magic rods, staffs, or wands, nor does it affect creatures [including constructs].</effect>
+						<target>One object of up to 1 lb.</target>
+						<saveinfo>Will negates (harmless, object)</saveinfo>
+						<school>
+							<school>Transmutation</school>
+							<subschool></subschool>
+							<descriptor></descriptor>
+							<fullschool>Transmutation</fullschool>
+						</school>
+						<source>
+							<sourcelevel>Wiz0</sourcelevel>
+							<source>RSRD, SpellsM-O</source>
+							<sourcepage>SpellsM-O</sourcepage>
+							<sourceshort>RSRD</sourceshort>
+						</source>
+						<spell_resistance>Yes (harmless, object)</spell_resistance>
+						<description>Mending repairs small breaks or tears in objects [but not warps, such as might be caused by a warp wood spell]. It will weld broken metallic objects such as a ring, a chain link, a medallion, or a slender dagger, providing but one break exists. Ceramic or wooden objects with multiple breaks can be invisibly rejoined to be as strong as new. A hole in a leather sack or a wineskin is completely healed over by mending. The spell can repair a magic item, but the item&#39;s magical abilities are not restored. The spell cannot mend broken magic rods, staffs, or wands, nor does it affect creatures [including constructs].</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Message</name>
+						<outputname>Message</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Medium (120 ft.)</range>
+						<components>V, S, F</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>2</casterlevel>
+						<concentration></concentration>
+						<dc></dc>
+						<duration>20 minutes</duration>
+						<effect>You can whisper messages and receive whispered replies with little chance of being overheard. You point your finger at each creature you want to receive the message. When you whisper, the whispered message is audible to all targeted creatures within range. Magical silence, 1 foot of stone, 1 inch of common metal [or a thin sheet of lead], or 3 feet of wood or dirt blocks the spell. The message does not have to travel in a straight line. It can circumvent a barrier if there is an open path between you and the subject, and the path&#39;s entire length lies within the spell&#39;s range. The creatures that receive the message can whisper a reply that you hear. The spell transmits sound, not meaning. It doesn&#39;t transcend language barriers. Note: To speak a message, you must mouth the words and whisper, possibly allowing observers the opportunity to read your lips. Focus: A short piece of copper wire.</effect>
+						<target>2 creatures</target>
+						<saveinfo>None</saveinfo>
+						<school>
+							<school>Transmutation</school>
+							<subschool></subschool>
+							<descriptor>Language-Dependent</descriptor>
+							<fullschool>Transmutation [Language-Dependent]</fullschool>
+						</school>
+						<source>
+							<sourcelevel>Wiz0</sourcelevel>
+							<source>RSRD, SpellsM-O</source>
+							<sourcepage>SpellsM-O</sourcepage>
+							<sourceshort>RSRD</sourceshort>
+						</source>
+						<spell_resistance>No</spell_resistance>
+						<description>You can whisper messages and receive whispered replies with little chance of being overheard. You point your finger at each creature you want to receive the message. When you whisper, the whispered message is audible to all targeted creatures within range. Magical silence, 1 foot of stone, 1 inch of common metal [or a thin sheet of lead], or 3 feet of wood or dirt blocks the spell. The message does not have to travel in a straight line. It can circumvent a barrier if there is an open path between you and the subject, and the path&#39;s entire length lies within the spell&#39;s range. The creatures that receive the message can whisper a reply that you hear. The spell transmits sound, not meaning. It doesn&#39;t transcend language barriers. Note: To speak a message, you must mouth the words and whisper, possibly allowing observers the opportunity to read your lips. Focus: A short piece of copper wire.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Open/Close</name>
+						<outputname>Open/Close</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Close (30 ft.)</range>
+						<components>V, S, F</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>2</casterlevel>
+						<concentration></concentration>
+						<dc>16</dc>
+						<duration>Instantaneous</duration>
+						<effect>You can open or close [your choice] a door, chest, box, window, bag, pouch, bottle, barrel, or other container. If anything resists this activity [such as a bar on a door or a lock on a chest], the spell fails. In addition, the spell can only open and close things weighing 30 pounds or less. Thus, doors, chests, and similar objects sized for enormous creatures may be beyond this spell&#39;s ability to affect. Focus: A brass key.</effect>
+						<target>Object weighing up to 30 lb. or portal that can be opened or closed</target>
+						<saveinfo>Will negates (object)</saveinfo>
+						<school>
+							<school>Transmutation</school>
+							<subschool></subschool>
+							<descriptor></descriptor>
+							<fullschool>Transmutation</fullschool>
+						</school>
+						<source>
+							<sourcelevel>Wiz0</sourcelevel>
+							<source>RSRD, SpellsM-O</source>
+							<sourcepage>SpellsM-O</sourcepage>
+							<sourceshort>RSRD</sourceshort>
+						</source>
+						<spell_resistance>Yes  (object)</spell_resistance>
+						<description>You can open or close [your choice] a door, chest, box, window, bag, pouch, bottle, barrel, or other container. If anything resists this activity [such as a bar on a door or a lock on a chest], the spell fails. In addition, the spell can only open and close things weighing 30 pounds or less. Thus, doors, chests, and similar objects sized for enormous creatures may be beyond this spell&#39;s ability to affect. Focus: A brass key.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Prestidigitation</name>
+						<outputname>Prestidigitation</outputname>
+						<times_memorized>1</times_memorized>
+						<range>10 ft.</range>
+						<components>V, S</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>2</casterlevel>
+						<concentration></concentration>
+						<dc>16</dc>
+						<duration>1 hour</duration>
+						<effect>Prestidigitations are minor tricks that novice spellcasters use for practice. Once cast, a prestidigitation spell enables you to perform simple magical effects for 1 hour. The effects are minor and have severe limitations. A prestidigitation can slowly lift 1 pound of material. It can color, clean, or soil items in a 1-foot cube each round. It can chill, warm, or flavor 1 pound of nonliving material. It cannot deal damage or affect the concentration of spellcasters. Prestidigitation can create small objects, but they look crude and artificial. The materials created by a prestidigitation spell are extremely fragile, and they cannot be used as tools, weapons, or spell components. Finally, a prestidigitation lacks the power to duplicate any other spell effects. Any actual change to an object [beyond just moving, cleaning, or soiling it] persists only 1 hour.</effect>
+						<target>See text</target>
+						<saveinfo>See text</saveinfo>
+						<school>
+							<school>Universal</school>
+							<subschool></subschool>
+							<descriptor></descriptor>
+							<fullschool>Universal</fullschool>
+						</school>
+						<source>
+							<sourcelevel>Wiz0</sourcelevel>
+							<source>RSRD, SpellsP-R</source>
+							<sourcepage>SpellsP-R</sourcepage>
+							<sourceshort>RSRD</sourceshort>
+						</source>
+						<spell_resistance>No</spell_resistance>
+						<description>Prestidigitations are minor tricks that novice spellcasters use for practice. Once cast, a prestidigitation spell enables you to perform simple magical effects for 1 hour. The effects are minor and have severe limitations. A prestidigitation can slowly lift 1 pound of material. It can color, clean, or soil items in a 1-foot cube each round. It can chill, warm, or flavor 1 pound of nonliving material. It cannot deal damage or affect the concentration of spellcasters. Prestidigitation can create small objects, but they look crude and artificial. The materials created by a prestidigitation spell are extremely fragile, and they cannot be used as tools, weapons, or spell components. Finally, a prestidigitation lacks the power to duplicate any other spell effects. Any actual change to an object [beyond just moving, cleaning, or soiling it] persists only 1 hour.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Ray of Frost</name>
+						<outputname>Ray of Frost</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Close (30 ft.)</range>
+						<components>V, S</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>2</casterlevel>
+						<concentration></concentration>
+						<dc></dc>
+						<duration>Instantaneous</duration>
+						<effect>A ray of freezing air and ice projects from your pointing finger. You must succeed on a ranged touch attack with the ray to deal damage to a target. The ray deals 1d3 points of cold damage.</effect>
+						<target>Ray</target>
+						<saveinfo>None</saveinfo>
+						<school>
+							<school>Evocation</school>
+							<subschool></subschool>
+							<descriptor>Cold</descriptor>
+							<fullschool>Evocation [Cold]</fullschool>
+						</school>
+						<source>
+							<sourcelevel>Wiz0</sourcelevel>
+							<source>RSRD, SpellsP-R</source>
+							<sourcepage>SpellsP-R</sourcepage>
+							<sourceshort>RSRD</sourceshort>
+						</source>
+						<spell_resistance>Yes</spell_resistance>
+						<description>A ray of freezing air and ice projects from your pointing finger. You must succeed on a ranged touch attack with the ray to deal damage to a target. The ray deals 1d3 points of cold damage.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Read Magic</name>
+						<outputname>Read Magic</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Personal</range>
+						<components>V, S, F</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>2</casterlevel>
+						<concentration></concentration>
+						<dc></dc>
+						<duration>20 minutes</duration>
+						<effect>By means of read magic, you can decipher magical inscriptions on objects-books, scrolls, weapons, and the like-that would otherwise be unintelligible. This deciphering does not normally invoke the magic contained in the writing, although it may do so in the case of a cursed scroll. Furthermore, once the spell is cast and you have read the magical inscription, you are thereafter able to read that particular writing without recourse to the use of read magic. You can read at the rate of one page [250 words] per minute. The spell allows you to identify a glyph of warding with a DC 13 Spellcraft check, a greater glyph of warding with a DC 16 Spellcraft check, or any symbol spell with a Spellcraft check [DC 10 + spell level]. Read magic can be made permanent with a permanency spell. Focus: A clear crystal or mineral prism.</effect>
+						<target>You</target>
+						<saveinfo>None</saveinfo>
+						<school>
+							<school>Divination</school>
+							<subschool></subschool>
+							<descriptor></descriptor>
+							<fullschool>Divination</fullschool>
+						</school>
+						<source>
+							<sourcelevel>Wiz0</sourcelevel>
+							<source>RSRD, SpellsP-R</source>
+							<sourcepage>SpellsP-R</sourcepage>
+							<sourceshort>RSRD</sourceshort>
+						</source>
+						<spell_resistance>No</spell_resistance>
+						<description>By means of read magic, you can decipher magical inscriptions on objects-books, scrolls, weapons, and the like-that would otherwise be unintelligible. This deciphering does not normally invoke the magic contained in the writing, although it may do so in the case of a cursed scroll. Furthermore, once the spell is cast and you have read the magical inscription, you are thereafter able to read that particular writing without recourse to the use of read magic. You can read at the rate of one page [250 words] per minute. The spell allows you to identify a glyph of warding with a DC 13 Spellcraft check, a greater glyph of warding with a DC 16 Spellcraft check, or any symbol spell with a Spellcraft check [DC 10 + spell level]. Read magic can be made permanent with a permanency spell. Focus: A clear crystal or mineral prism.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Resistance</name>
+						<outputname>Resistance</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Touch</range>
+						<components>V, S, M/DF</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>2</casterlevel>
+						<concentration></concentration>
+						<dc>16</dc>
+						<duration>1 minute</duration>
+						<effect>You imbue the subject with magical energy that protects it from harm, granting it a +1 resistance bonus on saves. Resistance can be made permanent with a permanency spell. Arcane Material Component: A miniature cloak.</effect>
+						<target>Creature touched</target>
+						<saveinfo>Will negates (harmless)</saveinfo>
+						<school>
+							<school>Abjuration</school>
+							<subschool></subschool>
+							<descriptor></descriptor>
+							<fullschool>Abjuration</fullschool>
+						</school>
+						<source>
+							<sourcelevel>Wiz0</sourcelevel>
+							<source>RSRD, SpellsP-R</source>
+							<sourcepage>SpellsP-R</sourcepage>
+							<sourceshort>RSRD</sourceshort>
+						</source>
+						<spell_resistance>Yes (harmless)</spell_resistance>
+						<description>You imbue the subject with magical energy that protects it from harm, granting it a +1 resistance bonus on saves. Resistance can be made permanent with a permanency spell. Arcane Material Component: A miniature cloak.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Touch of Fatigue</name>
+						<outputname>Touch of Fatigue</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Touch</range>
+						<components>V, S, M</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>2</casterlevel>
+						<concentration></concentration>
+						<dc>16</dc>
+						<duration>2 rounds</duration>
+						<effect>You channel negative energy through your touch, fatiguing the target. You must succeed on a touch attack to strike a target. The subject is immediately fatigued for the spell&#39;s duration. This spell has no effect on a creature that is already fatigued. Unlike with normal fatigue, the effect ends as soon as the spell&#39;s duration expires. Material Component: A drop of sweat.</effect>
+						<target>Creature touched</target>
+						<saveinfo>Fortitude negates</saveinfo>
+						<school>
+							<school>Necromancy</school>
+							<subschool></subschool>
+							<descriptor></descriptor>
+							<fullschool>Necromancy</fullschool>
+						</school>
+						<source>
+							<sourcelevel>Wiz0</sourcelevel>
+							<source>RSRD, SpellsT-Z</source>
+							<sourcepage>SpellsT-Z</sourcepage>
+							<sourceshort>RSRD</sourceshort>
+						</source>
+						<spell_resistance>Yes</spell_resistance>
+						<description>You channel negative energy through your touch, fatiguing the target. You must succeed on a touch attack to strike a target. The subject is immediately fatigued for the spell&#39;s duration. This spell has no effect on a creature that is already fatigued. Unlike with normal fatigue, the effect ends as soon as the spell&#39;s duration expires. Material Component: A drop of sweat.</description>
+						<bonusspell></bonusspell>
+				</spell>
+			</level>
+			<level number="1" known="0" cast="4">
+			</level>
+			<level number="2" known="0" cast="0">
+			</level>
+			<level number="3" known="0" cast="0">
+			</level>
+			<level number="4" known="0" cast="0">
+			</level>
+			<level number="5" known="0" cast="0">
+			</level>
+			<level number="6" known="0" cast="0">
+			</level>
+			<level number="7" known="0" cast="0">
+			</level>
+			<level number="8" known="0" cast="0">
+			</level>
+			<level number="9" known="0" cast="0">
+			</level>
+		</class>
+
+
+	</known_spells>
+		<!-- ### END Known spells ### -->
+		<!-- ### BEGIN memorized spells ### -->
+	<memorized_spells>
+			<!-- ### BEGIN innate memorized spell section -->
+<!-- ### BEGIN innate memorized spells ### -->
+
+<!-- ### END innate memorized spells ### -->
+			<!-- ### BEGIN class innate memorized spells ### -->
+			<class_innate_memorized>
+
+			<spellbook number="2" name="Magic Item">
+				<spell>
+						<name>Blink</name>
+						<outputname>Blink</outputname>
+						<times_memorized>At Will</times_memorized>
+						<range>Personal</range>
+						<components>V, S</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>7</casterlevel>
+						<concentration></concentration>
+						<dc></dc>
+						<duration>7 rounds [D]</duration>
+						<effect>You &quot;blink&quot; back and forth between the Material Plane and the Ethereal Plane. You look as though you&#39;re winking in and out of reality very quickly and at random. Blinking has several effects, as follows. Physical attacks against you have a 50% miss chance, and the Blind-Fight feat doesn&#39;t help opponents, since you&#39;re ethereal and not merely invisible. If the attack is capable of striking ethereal creatures, the miss chance is only 20% [for concealment]. If the attacker can see invisible creatures, the miss chance is also only 20%. [For an attacker who can both see and strike ethereal creatures, there is no miss chance.] Likewise, your own attacks have a 20% miss chance, since you sometimes go ethereal just as you are about to strike. Any individually targeted spell has a 50% chance to fail against you while you&#39;re blinking unless your attacker can target invisible, ethereal creatures. Your own spells have a 20% chance to activate just as you go ethereal, in which case they typically do not affect the Material Plane. While blinking, you take only half damage from area attacks [but full damage from those that extend onto the Ethereal Plane]. You strike as an invisible creature [with a +2 bonus on attack rolls], denying your target any Dexterity bonus to AC. You take only half damage from falling, since you fall only while you are material. While blinking, you can step through [but not see through] solid objects. For each 5 feet of solid material you walk through, there is a 50% chance that you become material. If this occurs, you are shunted off to the nearest open space and take 1d6 points of damage per 5 feet so traveled. You can move at only three-quarters speed [because movement on the Ethereal Plane is at half speed, and you spend about half your time there and half your time material.] Since you spend about half your time on the Ethereal Plane, you can see and even attack ethereal creatures. You interact with ethereal creatures roughly the same way you interact with material ones. An ethereal creature is invisible, incorporeal, and capable of moving in any direction, even up or down. As an incorporeal creature, you can move through solid objects, including living creatures. An ethereal creature can see and hear the Material Plane, but everything looks gray and insubstantial. Sight and hearing on the Material Plane are limited to 60 feet. Force effects and abjurations affect you normally. Their effects extend onto the Ethereal Plane from the Material Plane, but not vice versa. An ethereal creature can&#39;t attack material creatures, and spells you cast while ethereal affect only other ethereal things. Certain material creatures or objects have attacks or effects that work on the Ethereal Plane. Treat other ethereal creatures and objects as material.</effect>
+						<target>You</target>
+						<saveinfo>None</saveinfo>
+						<school>
+							<school>Transmutation</school>
+							<subschool></subschool>
+							<descriptor></descriptor>
+							<fullschool>Transmutation</fullschool>
+						</school>
+						<source>
+							<sourcelevel>Wiz3</sourcelevel>
+							<source>RSRD, SpellsA-B</source>
+							<sourcepage>SpellsA-B</sourcepage>
+							<sourceshort>RSRD</sourceshort>
+						</source>
+						<spell_resistance>No</spell_resistance>
+						<description>You &quot;blink&quot; back and forth between the Material Plane and the Ethereal Plane. You look as though you&#39;re winking in and out of reality very quickly and at random. Blinking has several effects, as follows. Physical attacks against you have a 50% miss chance, and the Blind-Fight feat doesn&#39;t help opponents, since you&#39;re ethereal and not merely invisible. If the attack is capable of striking ethereal creatures, the miss chance is only 20% [for concealment]. If the attacker can see invisible creatures, the miss chance is also only 20%. [For an attacker who can both see and strike ethereal creatures, there is no miss chance.] Likewise, your own attacks have a 20% miss chance, since you sometimes go ethereal just as you are about to strike. Any individually targeted spell has a 50% chance to fail against you while you&#39;re blinking unless your attacker can target invisible, ethereal creatures. Your own spells have a 20% chance to activate just as you go ethereal, in which case they typically do not affect the Material Plane. While blinking, you take only half damage from area attacks [but full damage from those that extend onto the Ethereal Plane]. You strike as an invisible creature [with a +2 bonus on attack rolls], denying your target any Dexterity bonus to AC. You take only half damage from falling, since you fall only while you are material. While blinking, you can step through [but not see through] solid objects. For each 5 feet of solid material you walk through, there is a 50% chance that you become material. If this occurs, you are shunted off to the nearest open space and take 1d6 points of damage per 5 feet so traveled. You can move at only three-quarters speed [because movement on the Ethereal Plane is at half speed, and you spend about half your time there and half your time material.] Since you spend about half your time on the Ethereal Plane, you can see and even attack ethereal creatures. You interact with ethereal creatures roughly the same way you interact with material ones. An ethereal creature is invisible, incorporeal, and capable of moving in any direction, even up or down. As an incorporeal creature, you can move through solid objects, including living creatures. An ethereal creature can see and hear the Material Plane, but everything looks gray and insubstantial. Sight and hearing on the Material Plane are limited to 60 feet. Force effects and abjurations affect you normally. Their effects extend onto the Ethereal Plane from the Material Plane, but not vice versa. An ethereal creature can&#39;t attack material creatures, and spells you cast while ethereal affect only other ethereal things. Certain material creatures or objects have attacks or effects that work on the Ethereal Plane. Treat other ethereal creatures and objects as material.</description>
+						<bonusspell></bonusspell>
+					</spell>
+			</spellbook>
+
+		</class_innate_memorized>
+			<!-- ### END class innate memorized spells ### -->
+<!-- ### END innate memorized spell section -->
+			<!-- ### BEGIN class Spellbook memorized spells ### -->
+<!-- FOR,1,COUNT[SPELLRACE],COUNT[SPELLRACE],1,1 -->
+<!-- FOR,0,COUNT[SPELLSINBOOK0.2.0],COUNT[SPELLSINBOOK0.2.0],1,1 -->
+<!-- Either we do not have a innate race, or if we do we do not have any 0 level spell for the innate race -->
+			<spellbook number="2" name="Magic Item">
+
+			<class number="1" spelllistclass="Wizard" spellcasterlevel="2" spellcastertype="Arcane" memorize="true">
+				<level number="0" spellcount="0"/>
+				<level number="1" spellcount="0"/>
+				<level number="2" spellcount="0"/>
+				<level number="3" spellcount="0"/>
+				<level number="4" spellcount="0"/>
+				<level number="5" spellcount="0"/>
+				<level number="6" spellcount="0"/>
+				<level number="7" spellcount="0"/>
+				<level number="8" spellcount="0"/>
+				<level number="9" spellcount="0"/>
+			</class>
+
+
+		</spellbook>
+<!-- END FOR,0,COUNT[SPELLSINBOOK0.2.0],COUNT[SPELLSINBOOK0.2.0],1,1 -->
+<!-- END FOR,1,COUNT[SPELLRACE],COUNT[SPELLRACE],1,1 -->
+	</memorized_spells>
+<!-- ### END class Spellbook memorized spells ### -->
+	</spells>
+<!-- ### Additional House Rules for Variables in the xsl:fo code ### -->
+	<house_var>
+		<spelldisplaydc>0.0</spelldisplaydc>
+		<OldStyleAbilityStatBlockDisplay>0.0</OldStyleAbilityStatBlockDisplay>
+	</house_var>
+</character>
