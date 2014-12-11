@@ -1,0 +1,3 @@
+and put this file "log4j.prp' in d20Pro/res
+if you restart you should see d20Pro/D20.log appear
+you should get full stack traces in there
